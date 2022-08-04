@@ -1,0 +1,8 @@
+// <----Partials--->
+@import "../scss/partials/variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// <----components--->
+@import "../components/header/Header";
+@import "../components/body/Content";
+@import "../components/footer/Footer";

@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+
+    .logo {
+        align-self: center;
+        max-width: auto;
+        height: 100px;
+    }
+
+    .nav {
+        margin: 30px auto 20px 40px;
+        background-color: #e5e5e5;
+        .nav-item {
+            .nav-link {
+                color: #222;
+                padding: 10px 15px;
+                font-size: 1.2rem;
+                border-bottom: solid 2px transparent;
+                &:hover {
+                    color: #982453;
+                    border-bottom: solid 2px #982453;
+                }
+            }
+        }
+    }
+
+    .banner {
+        align-self: center;
+        width: 100%;
+    }   
+}
