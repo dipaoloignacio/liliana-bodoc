@@ -1,29 +1,13 @@
 import React from 'react'
-import logo from '../../images/img-header/logo-fondo-blanco.jpg'
-import fondoBanner from '../../images/img-header/lili-opt.jpg'
+import lili from '../../images/img-header/Liliana-Bodoc-banner2.jpg'
+import logo from '../../images/img-header/logo-bg-e1e1e1.jpg'
 
 function Header() {
     return (
-        <header className="header ">
-            <img className='logo' src={logo} alt="" />
-            <ul className="nav">
-                <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Manifiesto</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Comunidad</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Actividades</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Contacto</a>
-                </li>
-            </ul>
-            <img src={fondoBanner} className='banner img-fluid' alt="" />
+        <header className="header">
+            <img src={logo} className='logo-banner img-fluid' alt="" />
+            <h1>Leer nos hace libres</h1>
+            <img src={lili} className='banner img-fluid' alt="" />
         </header>
     )
 }

@@ -1,26 +1,83 @@
-.content-body {
+@mixin cards {
+
     .tittle-act {
         display: inline-block;
+        color: #673047;
+        font-weight: 800;
+        font-size: 2rem;
         margin-left: 10%;
-        border-bottom: solid 1px #111;
-        padding-bottom: 5px;
-        margin-top: 100px;
+        border-bottom: solid 2px #673047;
+        padding-bottom: 2px;
+        margin-top: 50px;
     }
 
     .content-cards {
         display: flex;
-        margin-top: 50px;
-        margin-bottom: 150px;
+        margin-top: 40px;
+        padding-bottom: 150px;
         justify-content: center;
         gap: 10px;
+    }
 
-        .card {
-            width: 400px;
+    .card {
+        width: 400px;
+        transition: 0.3s;
+
+        &:hover {
+            box-shadow: 2px 2px 10px #999;
+        }
+
+        img {
+            transition: 0.3s;
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+
+        .card-body {
+            .btn {
+                border: solid 1px #673047;
+                &:hover{
+                    background-color: #673047;
+                    color: #fff;
+                }
+            }
         }
     }
-    .accordion{
-        max-width: 70%;
-        margin: auto;
+}
+
+.content-body {
+    .actividades {
+        background-color: #f3f3f3;
+        transition: 0.3s;
+        @include cards();
+
     }
 
+    .novedades {
+        background-color: #e1e1e1;
+        transition: 0.3s;
+        @include cards();
+    }
+}
+
+.accordion {
+    max-width: 70%;
+    margin: auto;
+}
+
+.content-video {
+    width: 100%;
+    background-color: #673047;
+    height: 600px;
+    margin-bottom: 100px;
+
+    .video {
+        display: block;
+        width: 60%;
+        height: 500px;
+        margin: auto;
+        padding-top: 100px;
+    }
 }

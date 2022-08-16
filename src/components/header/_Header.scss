@@ -1,33 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 .header {
-    display: flex;
-    flex-direction: column;
-    background-color: #e5e5e5;
+  display: flex;
+  background-color: #e1e1e1;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+//414042
+  .logo-banner {
+    height: 20vh;
+    margin-left: 30px;
+  }
 
-    .logo {
-        align-self: center;
-        max-width: auto;
-        height: 100px;
-    }
+  h1 {
+    color: #e98e7c;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 6rem;
+    font-weight: 600;
 
-    .nav {
-        margin: 30px auto 20px 40px;
-        background-color: #e5e5e5;
-        .nav-item {
-            .nav-link {
-                color: #222;
-                padding: 10px 15px;
-                font-size: 1.2rem;
-                border-bottom: solid 2px transparent;
-                &:hover {
-                    color: #982453;
-                    border-bottom: solid 2px #982453;
-                }
-            }
-        }
-    }
+  }
 
-    .banner {
-        align-self: center;
-        width: 100%;
-    }   
+  .banner {
+    height: 50vh;
+  }
 }

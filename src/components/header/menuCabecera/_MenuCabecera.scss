@@ -1,0 +1,59 @@
+.bg-propio {
+    background-color: #f3f3f3;
+}
+
+.navbar {
+    position: sticky !important;
+    border-bottom: solid 1px #999;
+
+    .logo {
+        max-width: auto;
+        height: 50px;
+        margin: 0 30px;
+    }
+
+    .donar {
+        align-self: center;
+    }
+
+    .nav-item {
+        padding: 0 10px;
+
+        .nav-link {
+            color: #222;
+            padding: 10px 15px;
+            font-size: 1.2rem;
+            border-bottom: solid 2px transparent;
+
+            &:hover {
+                color: #982453;
+                border-bottom: solid 2px #982453;
+            }
+        }
+
+
+        .donaciones {
+            flex-grow: 1;
+        }
+
+        .btn {
+            border: solid 1px #673047;
+            background-color: #673047;
+            color: white;
+        }
+    }
+
+    .navbar-nav {
+        .dropdown {
+            transition: 0.3s;
+
+            &:hover .dropdown-menu {
+                display: block;
+
+                .dropdown-item {
+                    padding: 10px 15px;
+                }
+            }
+        }
+    }
+}
