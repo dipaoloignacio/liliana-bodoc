@@ -23,7 +23,7 @@ function MenuCabecera() {
                         </li>
 
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle" href="#" >
                                 Liliana Bodoc
                             </a>
                             <ul className="dropdown-menu">
@@ -36,7 +36,7 @@ function MenuCabecera() {
                         </li>
 
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle" href="#" >
                                 Actividades
                             </a>
                             <ul class="dropdown-menu">
@@ -56,7 +56,8 @@ function MenuCabecera() {
                         </li>
 
                         <li className="nav-item donar">
-                            <a href="https://homenaje-lilianabodoc.blogspot.com/" target="_blank" className="donaciones btn">Donaciones</a>
+                            {/* <a href="https://homenaje-lilianabodoc.blogspot.com/" target="_blank" className="custom-btn btn-12">Donaciones</a> */}
+                            <button class="custom-btn btn-12"><span>Gracias!</span><span>Donaciones</span></button>
                         </li>
                     </ul>
                 </div>

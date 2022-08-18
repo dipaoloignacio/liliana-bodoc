@@ -6,7 +6,6 @@
         font-weight: 800;
         font-size: 2rem;
         margin-left: 10%;
-        border-bottom: solid 2px #673047;
         padding-bottom: 2px;
         margin-top: 50px;
     }
@@ -20,7 +19,7 @@
     }
 
     .card {
-        width: 400px;
+        max-width: 350px;
         transition: 0.3s;
 
         &:hover {
@@ -29,7 +28,8 @@
 
         img {
             transition: 0.3s;
-
+            max-width: 350px;
+            border-bottom: solid 1px #666;
             &:hover {
                 opacity: 0.9;
             }
@@ -38,7 +38,8 @@
         .card-body {
             .btn {
                 border: solid 1px #673047;
-                &:hover{
+
+                &:hover {
                     background-color: #673047;
                     color: #fff;
                 }
@@ -63,8 +64,31 @@
 }
 
 .accordion {
-    max-width: 70%;
-    margin: auto;
+
+    .tittle-manifiesto {
+        display: inline-block;
+        color: #673047;
+        font-weight: 800;
+        font-size: 2rem;
+        margin-left: 10%;
+        border-bottom: solid 2px #673047;
+        padding-bottom: 2px;
+        margin-top: 50px;
+    }
+
+    .accordion-item {
+        width: 70%;
+        margin: auto;
+    }
+
+    .btn {
+        @include btn-primary;
+
+        &:hover {
+            color: white;
+            background-color: #80435b;
+        }
+    }
 }
 
 .content-video {
