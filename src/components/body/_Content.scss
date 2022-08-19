@@ -2,24 +2,27 @@
 
     .tittle-act {
         display: inline-block;
-        color: #673047;
+        color: #732746;
         font-weight: 800;
         font-size: 2rem;
-        margin-left: 10%;
         padding-bottom: 2px;
-        margin-top: 50px;
+        margin: 50px 0;
+        margin-left: 10%;
     }
 
     .content-cards {
         display: flex;
+        flex-wrap: wrap;
+        max-width: 80%;
         margin-top: 40px;
+        margin: auto;
         padding-bottom: 150px;
         justify-content: center;
-        gap: 10px;
+        gap: 20px;
     }
 
     .card {
-        max-width: 350px;
+        max-width: 45%;
         transition: 0.3s;
 
         &:hover {
@@ -28,8 +31,8 @@
 
         img {
             transition: 0.3s;
-            max-width: 350px;
-            border-bottom: solid 1px #666;
+
+            border-right: solid 1px #999;
             &:hover {
                 opacity: 0.9;
             }
@@ -37,11 +40,9 @@
 
         .card-body {
             .btn {
-                border: solid 1px #673047;
-
-                &:hover {
-                    background-color: #673047;
-                    color: #fff;
+                @include btn-primary;
+                &:hover{
+                    background-color: #611835;
                 }
             }
         }
@@ -64,7 +65,6 @@
 }
 
 .accordion {
-
     .tittle-manifiesto {
         display: inline-block;
         color: #673047;
