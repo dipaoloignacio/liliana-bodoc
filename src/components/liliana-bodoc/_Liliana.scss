@@ -1,0 +1,12 @@
+.content-tittle {
+    @include titles-sections();
+    padding: 30px;
+}
+
+.biografia {
+    max-width: 70%;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: #666;
+    font-size: 1.5rem;
+}

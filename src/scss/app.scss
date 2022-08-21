@@ -2,6 +2,10 @@
     font-family: LeafyPlantSansFree;
     src: url(../fonts/LeafyPlantSansFree.ttf);
 }
+@font-face {
+    font-family: Higer;
+    src: url(../fonts/Higher.ttf);
+}
 
 // <----Partials--->
 @import "../scss/partials/variables";
@@ -9,7 +13,9 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // <----components--->
-@import "../components/header/menuCabecera/MenuCabecera";
-@import "../components/header/Header";
-@import "../components/body/Content";
+@import "../components/menuCabecera/MenuCabecera";
+@import "../components/banner/Banner";
+@import "../components/body-index/Content";
+@import "../components/quienes-somos/QuienesSomos";
+@import "../components/liliana-bodoc/Liliana";
 @import "../components/footer/Footer";

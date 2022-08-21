@@ -1,0 +1,53 @@
+.quienes-somos {
+    .content-title {
+        @include titles-sections();
+        min-width: 700px;
+    }
+
+    .manifiesto {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-left: 5%;
+
+        .content-manifiesto {
+            width: 70%;
+
+            .manifiesto-romina {
+                h3{
+                    display: inline-block;
+                    border-bottom: solid 1px #555;
+                    color: #555;
+                }
+                font-family: 'Times New Roman', Times, serif;
+                color: #777;
+                font-size: 1.5rem;
+                .span-autor{
+                    display: block;
+                    font-weight: 700;
+                    font-size: 1.1rem;
+                    color: #111;
+                    text-align: end;
+                }
+            }
+
+            .manifiesto-silvia{
+                @extend .manifiesto-romina;
+            }
+        }
+
+        .fotos {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-left: 50px;
+
+            img {
+                max-width: 300px;
+                height: auto;
+                border: solid 1px #999;
+                padding: 5px;
+            }
+        }
+    }
+}

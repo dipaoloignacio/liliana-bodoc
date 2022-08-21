@@ -8,11 +8,11 @@ import logo from '../../images/img-header/logo-sinFondo1.png'
 
 function Header() {
     return (
-        <header className="header">
+        <header className="contenedor-banner">
             <img src={logo} className='logo-banner img-fluid' alt="" />
             <div className="content-header">
                 <div className='title-header'>
-                    <h1>LEER NOS HACE LIBRES</h1>
+                    <h1>Leer nos hace libres</h1>
                     <img src={libros} className='libros ' alt="" />
                 </div>
             </div>

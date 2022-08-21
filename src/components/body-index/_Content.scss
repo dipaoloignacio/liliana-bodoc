@@ -1,0 +1,126 @@
+.content-body {
+    .actividades {
+        background-color: #fff;
+        transition: 0.3s;
+        padding-top: 40px;
+        @include cards();
+
+    }
+
+    .novedades {
+        background-color: #e1e1e1;
+        transition: 0.3s;
+        padding: 60px 0;
+        @include cards();
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            width: 70%;
+            margin-left: 15%;
+
+            .gallery-item {
+                /* Minimum width of 24rem and grow to fit available space */
+                flex: 1 0 300px;
+                /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+                margin: 1rem;
+                box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+                overflow: hidden;
+
+                .gallery-image {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: transform 400ms ease-out;
+
+                    &:hover {
+                        transform: scale(1.08);
+                    }
+                }
+            }
+        }
+    }
+
+    .quienes-somos {
+        background-color: #eee;
+
+        .content-title {
+            @include titles-sections();
+            padding: 40px 0 0 0;
+        }
+
+        .manifiesto-index {
+            margin: auto;
+            padding: 50px 0 60px 0;
+            text-align: center;
+            width: 70%;
+            font-family: 'Times New Roman', Times, serif;
+            color: #777;
+            font-size: 1.5rem;
+
+            @include btn-primary(150px);
+
+            .custom-btn {
+                margin: 40px;
+                text-decoration: none;
+            }
+
+        }
+
+
+    }
+
+    .content-video {
+        width: 100%;
+        background-color: #673047;
+        height: 100vh;
+        margin-bottom: 100px;
+
+        .content-title {
+            max-width: 500px;
+            margin: auto;
+            padding: 50px 0 30px 0;
+
+            .tittle-section {
+                text-align: center;
+                color: #e1e1e1;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight: 500;
+                font-size: 3rem;
+                padding: 20px;
+
+                .span-title {
+                    border-bottom: solid 1px #e1e1e1;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+
+
+        .carousel {
+            .video {
+                display: block;
+                width: 60%;
+                height: 600px;
+                margin: auto;
+            }
+
+            .carousel-control-prev {
+                .icon-carrusel-videos {
+                    font-size: 60px;
+                }
+            }
+
+            .carousel-control-next {
+                .icon-carrusel-videos {
+                    font-size: 60px;
+                }
+            }
+        }
+    }
+
+    .img-book {
+        @include libro;
+    }
+}
