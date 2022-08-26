@@ -1,0 +1,65 @@
+@media screen and (max-width: 1200px) {
+    .contenedor-banner {
+        .logo-banner {
+            max-height: 150px;
+            margin-left: 80px;
+          }
+        .content-header {
+            .title-header {
+                h1 {
+                    font-size: 3rem;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 900px) {
+    .contenedor-banner {
+        .logo-banner {
+            max-height: 100px;
+            margin-left: 20px;
+          }
+        .content-header {
+            .title-header {
+                .libros{
+                    height: 50px;
+                }
+                h1 {
+                    font-size: 2rem;
+                    font-weight: 400;
+                }
+            }
+        }
+        .content-img-banner{
+            .banner{
+                max-height: 300px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 550px) {
+    .contenedor-banner {
+        .logo-banner {
+            max-height: 70px;
+            margin-left: 20px;
+          }
+        .content-header {
+            .title-header {
+                .libros{
+                    display: none;
+                }
+                h1 {
+                    font-size: 1.5rem;
+                    margin-left: 10px;
+                    font-weight: 400;
+                }
+            }
+        }
+        .content-img-banner{
+            .banner{
+                max-height: 300px;
+            }
+        }
+    }
+}

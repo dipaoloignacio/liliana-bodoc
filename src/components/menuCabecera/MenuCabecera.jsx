@@ -27,21 +27,21 @@ function MenuCabecera() {
                                 LILIANA BODOC
                             </NavLink>
                             <ul className="dropdown-menu">
-                                <li><NavLink className="dropdown-item" to="/liliana-bodoc">BIOGRAFIA</NavLink></li>
-                                <li><NavLink className="dropdown-item" to="#">OBRAS</NavLink></li>
-                                <li><NavLink className="dropdown-item" to="#">21 DE JULIO</NavLink></li>
-                                <li><NavLink className="dropdown-item" to="#">VIDEOS</NavLink></li>
+                                <li><NavLink className="dropdown-item" to="/liliana-bodoc/biografia">BIOGRAFIA</NavLink></li>
+                                <li><NavLink className="dropdown-item" to="/liliana-bodoc/obras">BIBLIOGRAFIA</NavLink></li>
+                                <li><NavLink className="dropdown-item" to="/liliana-bodoc/21-de-julio">21 DE JULIO</NavLink></li>
+                                <li><NavLink className="dropdown-item" to="/liliana-bodoc/videos">VIDEOS RECOMENDADOS</NavLink></li>
                                 <li><hr className="dropdown-divider"></hr></li>
                             </ul>
                         </li>
 
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" >
+                            <NavLink className="nav-link dropdown-toggle" to="/que-hacemos" >
                                 QUE HACEMOS
-                            </a>
+                            </NavLink>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">MUJERES DE LOS CONFINES</a></li>
-                                <li><a className="dropdown-item" href="#">21 DE JULIO</a></li>
+                                <li><NavLink className="dropdown-item" to="/que-hacemos/mujeres-de-los-confines">MUJERES DE LOS CONFINES</NavLink></li>
+                                <li><NavLink className="dropdown-item" to="/que-hacemos/julio-actividad">21 DE JULIO</NavLink></li>
                                 <li><a className="dropdown-item" href="#">CONTAR PARA QUE OCURRA</a></li>
                                 <li><hr className="dropdown-divider"></hr></li>
                             </ul>
@@ -56,11 +56,13 @@ function MenuCabecera() {
                         </li>
 
                     </ul>
-                    <a className="custom-btn btn-12" href="https://homenaje-lilianabodoc.blogspot.com/" ><span>Click</span><span>Donaciones</span></a>
+                    <a className="custom-btn btn-12" href="https://homenaje-lilianabodoc.blogspot.com/" >
+                        <span>Click</span>
+                        <span>Donaciones</span>
+                    </a>
                 </div>
             </div>
         </nav>
-
     )
 }
 

@@ -1,3 +1,4 @@
+
 .bg-propio {
     background-color: #f3f3f3;
 }
@@ -28,6 +29,7 @@
         }
 
     }
+
     .custom-btn {
         width: 130px;
         height: 40px;
@@ -75,10 +77,10 @@
             -webkit-transition: all .3s;
             transition: all .3s;
 
-            a{
+            a {
                 color: #fff;
             }
-            
+
             &:nth-child(1) {
                 box-shadow:
                     -7px -7px 20px 0px #fff9,
@@ -136,6 +138,7 @@
                     text-decoration: none;
                     background-color: #fff;
                     color: #222;
+
                     &:hover {
                         background-color: #FBEEE6;
                     }

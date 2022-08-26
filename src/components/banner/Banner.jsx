@@ -13,7 +13,7 @@ function Header() {
             <div className="content-header">
                 <div className='title-header'>
                     <h1>Leer nos hace libres</h1>
-                    <img src={libros} className='libros ' alt="" />
+                    <img src={libros} className='libros' alt="" />
                 </div>
             </div>
             <div className='content-img-banner'>

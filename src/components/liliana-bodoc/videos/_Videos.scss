@@ -1,0 +1,46 @@
+.content-video {
+    width: 100%;
+    background-color: #673047;
+    height: 100vh;
+    margin-bottom: 100px;
+
+    .content-title {
+        margin: auto;
+        padding: 30px 0;
+
+        .tittle-section {
+            text-align: center;
+            color: #e1e1e1;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 500;
+            font-size: 3rem;
+            padding: 20px;
+
+            .span-title {
+                border-bottom: solid 1px #e1e1e1;
+                padding-bottom: 10px;
+            }
+        }
+    }
+
+    .carousel {
+        .video {
+            display: block;
+            width: 60%;
+            height: 60vh;
+            margin: auto;
+        }
+
+        .carousel-control-prev {
+            .icon-carrusel-videos {
+                font-size: 60px;
+            }
+        }
+
+        .carousel-control-next {
+            .icon-carrusel-videos {
+                font-size: 60px;
+            }
+        }
+    }
+}

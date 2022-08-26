@@ -1,0 +1,22 @@
+.mujeres-content {
+    .content-title {
+        @include titles-sections
+    }
+
+    .content-text {
+        max-width: 80%;
+        margin: 30px auto;
+        font-size: 1.1rem;
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    img {
+        display: block;
+        max-width: 300px;
+        margin: auto;
+        border: solid 1px #999;
+        padding: 5px;
+    }
+
+}

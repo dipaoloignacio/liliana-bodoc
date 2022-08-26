@@ -1,0 +1,62 @@
+@media screen and (max-width: 1200px) {
+    .content-video {
+        height: 700px;
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    .video {
+                        width: 85%;
+                        height: 500px;
+                    }
+                }
+            }
+
+            .carousel-control-prev {
+                width: 40px;
+
+                .icon-carrusel-videos {
+                    font-size: 3rem;
+                }
+            }
+
+            .carousel-control-next {
+                width: 40px;
+
+                .icon-carrusel-videos {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-video {
+        height: 500px;
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    .video {
+                        width: 85%;
+                        height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .content-video {
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    .video {
+                        width: 85%;
+                        height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}

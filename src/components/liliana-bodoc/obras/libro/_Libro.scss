@@ -1,0 +1,38 @@
+.contet-libro {
+    display: flex;
+    max-width: 60%;
+    margin: 50px 20%;
+    border-bottom: solid 1px #e1e1e1;
+
+    .img-libro {
+        img {
+            width: 200px;
+            padding: 10px;
+        }
+    }
+
+    .info-libro {
+        display: flex;
+        flex-direction: column;
+
+        .titulo-libro {
+            color: #e1e1e1;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .year-libro {
+            color: #ffffff;
+            font-size: 0.9rem;
+        }
+
+        .resenia-libro {
+            color: #e1e1e1;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .editorial-libro {
+            color: #e1e1e1;
+            flex-grow: 1;
+        }
+    }
+}

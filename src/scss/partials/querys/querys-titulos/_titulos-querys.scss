@@ -1,0 +1,20 @@
+// titulos de la pagina
+@media screen and (max-width:768px) {
+    .content-title {
+        .tittle-section {
+            font-weight: 400 !important;
+            font-size: 2.5rem !important;
+        }
+    }
+}
+
+@media screen and (max-width:500px) {
+    .content-title {
+        padding: 15px !important;
+        .tittle-section {
+            padding: 10px !important;
+            font-weight: 400 !important;
+            font-size: 2rem !important;
+        }
+    }
+}

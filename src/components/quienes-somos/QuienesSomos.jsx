@@ -1,9 +1,14 @@
 import React from 'react'
+
 import foto from '../../images/img-quienes-somos/Liliana-Bodoc.jpg'
 import foto1 from '../../images/img-quienes-somos/lili1.jpg'
 import foto2 from '../../images/img-quienes-somos/lili2.jpg'
 import foto3 from '../../images/img-quienes-somos/lili3.jpg'
+import foto4 from '../../images/img-quienes-somos/libro.png'
+import foto5 from '../../images/img-quienes-somos/grupo-childrens.png'
+
 function QuienesSomos() {
+
   return (
     <div className='quienes-somos'>
       <div className='content-title'>
@@ -12,7 +17,6 @@ function QuienesSomos() {
       <div className='manifiesto'>
         <div className='content-manifiesto'>
           <div className="manifiesto-romina">
-            <h3 className='mb-4'>Romina Bodoc :</h3>
             <br />
             "La magia me autoriza a desobedecer y a morirme en la paz de los que saben que la piel es un límite impreciso. Y que tras la apariencia del final hay un ciclo de ave, tierra, niño, tortuga, dátil, mujer de nuevo. Otra mujer ¿y qué? La magia me autoriza a no tomarme en serio que soy un individuo único, irrepetible, piel adentro. Prefiero parecerme a cada ser. La magia me autoriza. Y ya muerta llegar a la tortuga, al alacrán, al risco, como quien vuelve a casa". <br />
 
@@ -32,7 +36,6 @@ function QuienesSomos() {
           </div>
           <div>
             <div className="manifiesto-silvia">
-            <h3>Silvia Chiavetta :</h3> <br />
               ¿Qué imaginamos, qué proyectamos cuando pensamos en ponerle a la Fundación el nombre de Liliana Bodoc.? <br />
 
               Seguramente lo mismo que soñaron, imaginaron todos los que eligieron su nombre para una biblioteca escolar, una biblioteca pública, una escuela, una librería, una plaza.<br />
@@ -86,10 +89,85 @@ function QuienesSomos() {
           </div>
         </div>
         <div className='fotos'>
-              <img src={foto} alt="" />
-              <img src={foto1} alt="" />
-              <img src={foto2} alt="" />
-              <img src={foto3} alt="" />
+          <img src={foto} alt="" />
+          <img src={foto1} alt="" />
+          <img src={foto2} alt="" />
+          <img src={foto3} alt="" />
+        </div>
+      </div>
+
+      <div className="comunidad">
+        <div className='content-title'>
+          <h1 className='tittle-section'>Com<span className='span-title'>uni</span>dad.</h1>
+        </div>
+        <div className="container">
+          <ul className="step-list">
+            <li className="step-list__item">
+              <div className="step-list__item__inner">
+                <div className="content">
+                  <div className="body">
+                    <h2>Admi<span className='span-comunidad'>nistr</span>ación</h2>
+                    <p>Presidenta: <span className='comunidad-nombres'>"Silvia Chiavetta"</span>  </p>
+                    <p>Secretario: <span className='comunidad-nombres'>"Alberto Eugenio Marino"</span> 	</p>
+                    <p>Tesorero: <span className='comunidad-nombres'>"Antonio Jorge Bodoc"</span> 	</p>
+                  </div>
+                  <div className="icon">
+                    <img className='icon-libro' src={foto4} alt="Check" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className="step-list__item">
+              <div className="step-list__item__inner">
+                <div className="content">
+                  <div className="body">
+                    <h2>Cola<span className='span-comunidad'>bora</span>dores</h2>
+                    <p>	Actor y Director de Teatro: <span className='comunidad-nombres'>"Galileo Bodoc"</span></p>
+                    <p>	Antropóloga: <span className='comunidad-nombres'>"Romina Bodoc"</span> </p>
+                    <p>	Ilustrador: <span className='comunidad-nombres'>"Gonzalo Kenny"</span> </p>
+                  </div>
+
+                  <div className="icon">
+                    {/* <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/13060/mail_outline_copy.svg" alt="Check" /> */}
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/13060/heart.svg" alt="Check" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className="step-list__item">
+              <div className="step-list__item__inner">
+                <div className="content">
+                  <div className="body">
+                    <h2>Pad<span className='span-comunidad'>ri</span>nos</h2>
+                    <p>Herederos de Liliana Bodoc: <span className='comunidad-nombres'>"Susesión Liliana Chiavetta"</span></p>
+                    <p>Editorial: <span className='comunidad-nombres'>"Penguin Random House"</span></p>
+                    <p>Editorial: <span className='comunidad-nombres'>"Norma - Kapelusz"</span></p>
+                  </div>
+
+                  <div className="icon">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/13060/heart.svg" alt="Check" />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className="step-list__item">
+              <div className="step-list__item__inner">
+                <div className="content">
+                  <div className="body">
+                    <h2>Grup<span className='span-comunidad'>os A</span>fines</h2>
+                    <p>Mujeres de los Confines: <a href="https://www.facebook.com/groups/232232720667261" target={"_blank"}>Link aqui</a></p>
+                    <p>Liliana Bodoc: Lectores y Fans <a href="https://www.facebook.com/groups/232232720667261" target={"_blank"}>Link aqui</a></p>
+                    <p>Liliana Bodoc en el Aula: <a href="https://www.facebook.com/groups/595643973790806" target={"_blank"}>Link aqui</a></p>
+                    <p>Liliana Bodoc: fan e lettori italiani <a href="https://www.facebook.com/groups/205895256810241" target={"_blank"}>Link aqui</a></p>
+                  </div>
+
+                  <div className="icon">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/13060/calendar.svg" alt="Check" />
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

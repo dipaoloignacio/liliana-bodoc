@@ -1,0 +1,66 @@
+@media screen and (max-width:1200px) {
+
+    // Bibliografia
+    .content-obras {
+        .contet-libro {
+            min-width: 90%;
+            margin-left: 5%;
+
+            .img-libro {
+                img {
+                    width: 150px;
+                    padding: 10px;
+                }
+            }
+
+            .info-libro {
+                .resenia-libro {
+                    max-height: 150px;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+            }
+        }
+        ul{
+            padding-bottom: 20px !important;
+        }
+
+        .fondo-curvo{
+            min-height: 100px;
+            padding-top: 0;
+        }
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    // Bibliografia
+    .content-obras {
+        .contet-libro {
+            min-width: 90%;
+            margin-left: 5%;
+
+            .img-libro {
+                img {
+                    width: 100px;
+                    padding: 10px;
+                }
+            }
+
+            .info-libro {
+                .resenia-libro {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+
+        .pagination {
+            .page-item {
+                .page-link {
+                    padding: 5px;
+                }
+            }
+        }
+    }
+
+}

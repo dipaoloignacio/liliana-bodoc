@@ -2,6 +2,7 @@
     font-family: LeafyPlantSansFree;
     src: url(../fonts/LeafyPlantSansFree.ttf);
 }
+
 @font-face {
     font-family: Higer;
     src: url(../fonts/Higher.ttf);
@@ -17,5 +18,12 @@
 @import "../components/banner/Banner";
 @import "../components/body-index/Content";
 @import "../components/quienes-somos/QuienesSomos";
-@import "../components/liliana-bodoc/Liliana";
+@import "../components/liliana-bodoc/biografia/Biografia";
+@import "../components/liliana-bodoc/obras/libro/Libro";
+@import "../components/liliana-bodoc/obras/contenedor-lista-de-libros/ContenedorListaDeLibros";
+@import "../components/liliana-bodoc/21-de-julio/DiaDeJulio";
+@import "../components/liliana-bodoc/videos/Videos";
+@import "../components/que-hacemos/mujeres-de-los-confines/MujeresConfines";
+@import "../components/que-hacemos/21-de-julio/JulioActividad";
 @import "../components/footer/Footer";
+@import "../scss/partials/querys/querys.scss";
