@@ -12,6 +12,7 @@ import Videos from './components/liliana-bodoc/videos/Videos';
 import QueHacemos from './components/que-hacemos/QueHacemos';
 import MujeresConfines from './components/que-hacemos/mujeres-de-los-confines/MujeresConfines';
 import JulioActividad from './components/que-hacemos/21-de-julio/JulioActividad';
+import ContarParaQueOcurra from './components/que-hacemos/contar-para-que-ocurra/ContarParaQueOcurra';
 import Footer from './components/footer/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/que-hacemos" element={<QueHacemos />} />
         <Route path="/que-hacemos/mujeres-de-los-confines" element={<MujeresConfines />} />
         <Route path="/que-hacemos/julio-actividad" element={<JulioActividad />} />
+        <Route path="/que-hacemos/contar-para-que-ocurra" element={<ContarParaQueOcurra />} />
       </Routes>
       <Footer />
     </BrowserRouter>

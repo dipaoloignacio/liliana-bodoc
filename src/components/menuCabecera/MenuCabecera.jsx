@@ -42,7 +42,7 @@ function MenuCabecera() {
                             <ul className="dropdown-menu">
                                 <li><NavLink className="dropdown-item" to="/que-hacemos/mujeres-de-los-confines">MUJERES DE LOS CONFINES</NavLink></li>
                                 <li><NavLink className="dropdown-item" to="/que-hacemos/julio-actividad">21 DE JULIO</NavLink></li>
-                                <li><a className="dropdown-item" href="#">CONTAR PARA QUE OCURRA</a></li>
+                                <li><NavLink className="dropdown-item" to="/que-hacemos/contar-para-que-ocurra">CONTAR PARA QUE OCURRA</NavLink></li>
                                 <li><hr className="dropdown-divider"></hr></li>
                             </ul>
                         </li>

@@ -48,9 +48,9 @@
         }
     }
 
-    .title {
-        padding-top: 20px;
+    .content-title {
         @include titles-sections;
+        padding-top: 20px;
 
         h4 {
             text-align: center;
@@ -66,7 +66,6 @@
     .celebrando {
         padding-bottom: 50px;
         color: #eee;
-        font-size: 1.1rem;
 
         @mixin img-21-julio {
             max-width: 100%;
@@ -95,9 +94,8 @@
 
         .fw-bolder {
             text-align: center;
-            font-size: 2rem;
+            font-size: 1.5rem;
             margin-bottom: 60px;
-            text-decoration: underline 1px;
         }
 
         .celebramos-2021 {
@@ -114,9 +112,11 @@
                 width: 80%;
                 margin-left: 10%;
 
-                img {
+                .foto1-2021{
                     width: 40%;
-                    height: auto;
+                }
+                .foto2-2021{
+                    width: 80%;
                 }
             }
         }
@@ -174,14 +174,6 @@
         transform: scale(1.15);
     }
 
-    /*
-    
-    The following rule will only run if your browser supports CSS grid.
-    
-    Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
-    
-    */
-
     @supports (display: grid) {
         .gallery {
             display: grid;
@@ -191,6 +183,19 @@
 
         .gallery-item {
             margin: 0;
+        }
+    }
+
+    .video {
+        max-width: 70%;
+        margin: 50px auto;
+        padding-bottom: 80px;
+        border-bottom: solid 1px #eee;
+        iframe {
+            display: block;
+            margin: auto;
+            width: 100%;
+            height: 70vh;
         }
     }
 }

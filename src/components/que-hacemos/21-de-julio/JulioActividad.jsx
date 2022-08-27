@@ -26,13 +26,12 @@ function JulioActividad({ activado }) {
             <section className={`${(activado === 'true' ? 'fondo-curvo-activado' : 'fondo-curvo-desactivado')}`}>
                 <div className="curve"></div>
             </section>
-            <div className="title">
+            <div className="content-title">
                 <h3 className='tittle-section'>Celebramos a Liliana Bodoc</h3>
-                <h4>Dia provincial del libro infantil y juvenil</h4>
             </div>
             <div className="celebrando">
                 <div className="celebramos-2020">
-                    <p className='fw-bolder'>2020</p>
+                    <h4 className='title-secundario'>Dia provincial del libro infantil y juvenil 2020</h4>
                     <p>
                         El grupo<a href="https://www.facebook.com/groups/232232720667261" className='link-redirect' target={"_blank"}>“LAS MUJERES DE LOS CONFINES”</a>  , la Asociación EDELIJ y la compañía <a href="https://elalmaenunhilo.com/" className='link-redirect' target={"_blank"}>“EL ALMA EN UN HILO”</a> crearon una propuesta para celebrar los 20 años del libro “Los días del Venado”. Durante todo el mes de Julio diversos artistas, escritores, músicos, educadores por el arte, ilustradores y familiares se suman a celebrar a LILIANA BODOC. <br />
                     </p>
@@ -45,8 +44,8 @@ function JulioActividad({ activado }) {
                 <div className="celebramos-2021">
                     <h5 className='fw-bolder'>Dia provincial del libro infantil y juvenil 2021</h5>
                     <div className='fotos-2021'>
-                        <img src={foto1} alt="" className='foto1-2021' />
                         <img src={foto2} alt="" className='foto2-2021' />
+                        <img src={foto1} alt="" className='foto1-2021' />
                     </div>
                 </div>
                 <div class="gallery">
@@ -66,6 +65,9 @@ function JulioActividad({ activado }) {
                         <img class="gallery-image" src={foto7} alt=""></img>
                     </div>
                 </div>
+                <div className='video'>
+                    <iframe src="https://www.youtube.com/embed/NeUNa6EfYaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
                 <div className="celebramos-2022">
                     <h5 className='fw-bolder'>Dia provincial del libro infantil y juvenil 2022</h5>
                     <div className='fotos-2022'>
@@ -73,23 +75,32 @@ function JulioActividad({ activado }) {
                         <img src={foto14} alt="" className='foto2-2022' />
                     </div>
                 </div>
-                    <div class="gallery">
-                        <div class="gallery-item">
-                            <img class="gallery-image" src={foto8} alt=""></img>
-                        </div>
-                        <div class="gallery-item">
-                            <img class="gallery-image" src={foto9} alt=""></img>
-                        </div>
-                        <div class="gallery-item">
-                            <img class="gallery-image" src={foto10} alt=""></img>
-                        </div>
-                        <div class="gallery-item">
-                            <img class="gallery-image" src={foto11} alt=""></img>
-                        </div>
-                        <div class="gallery-item">
-                            <img class="gallery-image" src={foto12} alt=""></img>
-                        </div>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img class="gallery-image" src={foto8} alt=""></img>
                     </div>
+                    <div class="gallery-item">
+                        <img class="gallery-image" src={foto9} alt=""></img>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="gallery-image" src={foto10} alt=""></img>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="gallery-image" src={foto11} alt=""></img>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="gallery-image" src={foto12} alt=""></img>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="gallery-image" src={foto15} alt=""></img>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="gallery-image" src={foto16} alt=""></img>
+                    </div>
+                </div>
+                <div className='video'>
+                    <iframe src="https://www.youtube.com/embed/dzjqtUtLAjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
 
 
