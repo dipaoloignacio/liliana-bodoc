@@ -1,14 +1,18 @@
 @media screen and (max-width: 768px) {
     .quienes-somos {
-        .manifiesto {
-            .content-manifiesto {
-                .manifiesto-romina {
-                    font-size: 1.1rem;
-                }
+        .content-manifiesto {
+            width: 90% !important;
+            .manifiesto-romina {
+                font-size: 1.1rem;
+            }
 
-                .manifiesto-silvia {
-                    font-size: 1.1rem;
-                }
+            .manifiesto-silvia {
+                font-size: 1.1rem;
+            }
+        }
+        .fotos{
+            img{
+                max-width: 150px;
             }
         }
     }

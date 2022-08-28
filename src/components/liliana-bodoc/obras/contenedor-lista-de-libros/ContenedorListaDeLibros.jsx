@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react';
-import obras from '../../../../Biblioteca/Biblioteca';
+import obras from '../../../../Data/Biblioteca/Biblioteca';
 import ListaDeLibros from '../lista-de-libros/ListaDeLibros';
 
 function ContenedorListaDeLibros() {

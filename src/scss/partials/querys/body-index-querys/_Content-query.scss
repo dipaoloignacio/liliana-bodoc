@@ -1,7 +1,18 @@
+@media screen and (max-width: 768px) {
+    .content-body {
+        .quienes-somos {
+            .manifiesto-index {
+                width: 70%;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 500px) {
     .content-body {
         .quienes-somos {
             .manifiesto-index {
+                width: 85%;
                 padding: 0;
                 font-size: 1.1rem;
             }
@@ -23,15 +34,18 @@
 
                 .card-body {
                     height: 150px;
+
                     .card-text {
                         text-overflow: ellipsis;
                         overflow: hidden;
                         white-space: nowrap;
                     }
-                    span{
+
+                    span {
                         display: none;
                     }
-                    button{
+
+                    button {
                         margin: 0;
                     }
                 }

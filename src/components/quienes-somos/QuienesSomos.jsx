@@ -14,7 +14,10 @@ function QuienesSomos() {
       <div className='content-title'>
         <h1 className='tittle-section'>Fun<span className='span-title'>dac</span>ión.</h1>
       </div>
-      <div className='manifiesto'>
+      <div className='container'>
+        <div className='fotos'>
+          <img src={foto} alt="" />
+        </div>
         <div className='content-manifiesto'>
           <div className="manifiesto-romina">
             <br />
@@ -34,6 +37,7 @@ function QuienesSomos() {
 
             <span className='span-autor'> Romina Bodoc </span> <br />
           </div>
+          <img className='w-75 mb-5' src={foto3} alt="" />
           <div>
             <div className="manifiesto-silvia">
               ¿Qué imaginamos, qué proyectamos cuando pensamos en ponerle a la Fundación el nombre de Liliana Bodoc.? <br />
@@ -86,14 +90,10 @@ function QuienesSomos() {
 
               <span className='span-autor'> Silvia Chiavetta </span><br />
             </div>
+            <img className='w-75 mb-5' src={foto2} alt="" />
           </div>
         </div>
-        <div className='fotos'>
-          <img src={foto} alt="" />
-          <img src={foto1} alt="" />
-          <img src={foto2} alt="" />
-          <img src={foto3} alt="" />
-        </div>
+
       </div>
 
       <div className="comunidad">

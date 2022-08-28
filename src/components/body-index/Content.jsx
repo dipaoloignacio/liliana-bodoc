@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner from '../banner/Banner'
 import Videos from '../liliana-bodoc/videos/Videos';
+import CardContainer from './card-actividades/card-container/CardContainer';
 import { Link } from 'react-router-dom'
 
 import FotoCard1 from '../../images/img-body/21-de-julio/actividad-21julio.jpg'
@@ -13,6 +14,8 @@ import FotoCard7 from '../../images/img-body/fundacion4.jpg'
 import FotoCard8 from '../../images/img-body/donaciones-libros.jpg'
 
 function Content() {
+
+    let url = "https://images.unsplash.com/photo-1606830733744-0ad778449672?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNocmlzdG1hcyUyMHRyZWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60";
     return (
         <div className='content-body'>
             <Banner></Banner>
@@ -20,7 +23,7 @@ function Content() {
                 <div className="content-title">
                     <h3 className='tittle-section'>Quie<span className='span-title'>nes so</span>mos</h3>
                 </div>
-                <div className='manifiesto-index'>
+                <div className='manifiesto-index container'>
                     ¿Qué imaginamos, qué proyectamos cuando pensamos en ponerle a la Fundación el nombre de Liliana Bodoc.?<br />
 
                     Seguramente lo mismo que soñaron, imaginaron todos los que eligieron su nombre para una biblioteca escolar, una biblioteca pública, una escuela, una librería, una plaza. <br />
@@ -36,67 +39,11 @@ function Content() {
                 <div className="content-title">
                     <h4 className='tittle-section'>Nuestr<span className='span-title'>as Acti</span>vidades</h4>
                 </div>
-                <div className='content-cards'>
-                    <div className="card mb-3">
-                        <div className="row g-0">
-                            <div className="col-md-5">
-                                <img src={FotoCard2} className="img-fluid rounded-start" alt="..."></img>
-                            </div>
-                            <div className="col-md-7">
-                                <div className="card-body">
-                                    <h5 className="card-title">Mujeres de los confines</h5>
-                                    <p className="card-text">El Grupo Cultural Mujeres de Los Confines, integrante de la Fundación Liliana Bodoc, tiene como objetivo ser custodio de la Obra Literaria de Liliana Bodoc, difundir la misma en eventos culturales y en instituciones educativas con el fin de promover la lectura reflexiva y estética y la creación de bibliotecas. <span>...</span> </p>
-                                    <Link to="/que-hacemos/mujeres-de-los-confines" className="custom-btn btn-3"><span>ver mas</span></Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card mb-3">
-                        <div className="row g-0">
-                            <div className="col-md-5">
-                                <img src={FotoCard1} className="img-fluid rounded-start" alt="..."></img>
-                            </div>
-                            <div className="col-md-7">
-                                <div className="card-body">
-                                    <h5 className="card-title">Todos los 21 de julio</h5>
-                                    <p className="card-text">En homenaje a la entrañable escritora Liliana Bodoc. Día Provincial del Libro Infantil y Juvenil. <span>...</span></p>
-                                    <Link to="/que-hacemos/julio-actividad" className="custom-btn btn-3"><span>ver mas</span></Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card mb-3">
-                        <div className="row g-0">
-                            <div className="col-md-5">
-                                <img src={FotoCard3} className="img-fluid rounded-start" alt="..."></img>
-                            </div>
-                            <div className="col-md-7">
-                                <div className="card-body">
-                                    <h5 className="card-title">Contar para que ocurra</h5>
-                                    <p className="card-text">“Contar para que ocurra” se trata de un evento artístico.La magia y la poesía de Liliana estarán presentes ese día entre nosotros, teatro, música y arte para celebrar su vida y su obra. <span>...</span></p>
-                                    <button href="#" className="custom-btn btn-3"><span>ver mas</span></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card mb-3">
-                        <div className="row g-0">
-                            <div className="col-md-5">
-                                <img src={FotoCard8} className="img-fluid rounded-start" alt="..."></img>
-                            </div>
-                            <div className="col-md-7">
-                                <div className="card-body">
-                                    <h5 className="card-title">Donaciones de libros</h5>
-                                    <p className="card-text">La Fundación Liliana Bodoc tiene como uno de sus propósitos realizar donaciones periódicas de libros de literatura infantil y juvenil a bibliotecas populares de la Provincia, y de otros sitios del país que lo requieran. <span>...</span></p>
-                                    <button href="#" className="custom-btn btn-3"><span>ver mas</span></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <CardContainer />
             </div>
 
-            <div className="novedades">
+
+            {/* <div className="novedades">
                 <div className="content-title">
                     <h4 className='tittle-section'>No<span className='span-title'>veda</span>des</h4>
                 </div>
@@ -149,7 +96,7 @@ function Content() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <Videos></Videos>
 
