@@ -1,23 +1,24 @@
 .content-body {
     .division-banner {
         background-color: #eee;
-        
+        padding: 100px 0  20px 0;
         h2 {
+            
             font: 33px sans-serif;
             text-align: center;
             text-transform: uppercase;
             margin: 0 !important;
-            padding: 60px 0;
             font-size: 50px;
             color: #00a9ac;
         }
 
         h2.background {
+            
             position: relative;
             z-index: 1;
 
+
             &:before {
-                
                 content: "";
                 margin: 0 auto;
                 /* this centers the line to the full width specified */
