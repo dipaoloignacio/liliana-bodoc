@@ -1,6 +1,8 @@
 import React from 'react'
 import Banner from '../banner/Banner'
 import Videos from '../liliana-bodoc/videos/Videos';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faHandsHelping} from '@fortawesome/free-solid-svg-icons';
 import CardContainer from './card-actividades/card-container/CardContainer';
 import { Link } from 'react-router-dom'
 
@@ -19,16 +21,20 @@ function Content() {
     return (
         <div className='content-body'>
             <Banner></Banner>
-            <div className="quienes-somos" id="accordionExample">
-                <div className="content-title">
-                    <h3 className='tittle-section'>Quie<span className='span-title'>nes so</span>mos</h3>
-                </div>
+            <div className='division-banner'><h2 class="background double"><span><FontAwesomeIcon icon={faHandsHelping}/></span></h2></div>
+            <div className="quienes-somos">
+
+            <iframe src="https://www.youtube.com/embed/r-uTa-FlWNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                 <div className='manifiesto-index container'>
+                    <div className="tittle-quienes-somos-index">
+                        <h3 className='tittle-section'>¿QUIE<span className='span-title'>NES <span className='color-letter'>SO</span></span><span className='color-letter'>MOS</span>?</h3>
+                    </div>
                     ¿Qué imaginamos, qué proyectamos cuando pensamos en ponerle a la Fundación el nombre de Liliana Bodoc.?<br />
 
                     Seguramente lo mismo que soñaron, imaginaron todos los que eligieron su nombre para una biblioteca escolar, una biblioteca pública, una escuela, una librería, una plaza. <br />
 
-                    Como haría Liliana, abrimos nuestra fundación como una casa, o como se puede abrir un corazón. Para que sea un sitio de límites imprecisos donde la Madre de Los Confines no sea un fin sino un comienzo, no un límite sino un horizonte. Para que, como lo hacen los hijos, hagamos de la continuidad un acto creativo. Porque más allá aún de una práctica, Liliana nos propone un modo de habitar y caminar el mundo. <br />
+                    Como haría Liliana, <span className='color-letter'>abrimos nuestra fundación</span> como una casa, o como se puede abrir un corazón. <br />
 
                     <Link className="custom-btn btn-3" to='/quienes-somos'><span>Conocenos</span></Link>
                 </div>
@@ -39,7 +45,7 @@ function Content() {
                 <div className="content-title">
                     <h4 className='tittle-section'>Nuestr<span className='span-title'>as Acti</span>vidades</h4>
                 </div>
-                <CardContainer />
+                {/* <CardContainer /> */}
             </div>
 
 

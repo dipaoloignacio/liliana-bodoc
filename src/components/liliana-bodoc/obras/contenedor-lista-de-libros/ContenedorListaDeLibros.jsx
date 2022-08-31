@@ -9,7 +9,6 @@ function ContenedorListaDeLibros() {
 
     useEffect(() => {
         setLibros(obras.filter((libro) => libro.page === pagination));
-        console.log(pagination);
     }, [pagination]);
 
     const prev = () => {

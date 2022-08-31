@@ -1,4 +1,109 @@
 .content-body {
+    .division-banner {
+        background-color: #eee;
+        
+        h2 {
+            font: 33px sans-serif;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0 !important;
+            padding: 60px 0;
+            font-size: 50px;
+            color: #00a9ac;
+        }
+
+        h2.background {
+            position: relative;
+            z-index: 1;
+
+            &:before {
+                
+                content: "";
+                margin: 0 auto;
+                /* this centers the line to the full width specified */
+                position: absolute;
+                /* positioning must be absolute here, and relative positioning must be applied to the parent */
+                top: 50%;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 95%;
+                z-index: -1;
+            }
+
+            span {
+                /* to hide the lines from behind the text, you have to set the background color the same as the container */
+                background: #eee;
+                padding: 0 15px;
+            }
+        }
+
+        h2.double:before {
+            /* this is just to undo the :before styling from above */
+            border-top: none;
+        }
+
+        h2.double:after {
+            border-bottom: 1px solid #982453;
+            -webkit-box-shadow: 0 1px 0 0 #982453;
+            -moz-box-shadow: 0 1px 0 0 #982453;
+            box-shadow: 0 1px 0 0 #982453;
+            content: "";
+            margin: 0 auto;
+            /* this centers the line to the full width specified */
+            position: absolute;
+            top: 45%;
+            left: 0;
+            right: 0;
+            width: 95%;
+            z-index: -1;
+        }
+
+    }
+
+    .quienes-somos {
+        display: flex;
+        background-color: #eee;
+        padding: 50px 50px;
+
+        iframe {
+            margin: 50px auto;
+            width: 40%;
+            border: solid 1px #982453;
+            padding: 5px;
+        }
+
+        .color-letter {
+            color: #982453;
+        }
+
+        .tittle-quienes-somos-index {
+            padding: 40px 0 0 0;
+            @include titles-sections();
+
+            .tittle-section {
+                font-size: 2.5rem;
+            }
+        }
+
+        .manifiesto-index {
+            padding: 0 0 60px 0;
+            width: 50%;
+            font-family: 'Libre Baskerville', serif;
+            color: #222;
+            font-size: 1.2rem;
+            margin-right: 50px;
+
+            @include btn-primary(150px);
+
+            .custom-btn {
+                display: block;
+                margin: 40px auto;
+                text-decoration: none;
+
+            }
+        }
+    }
 
     .actividades {
         background-color: #fff;
@@ -10,6 +115,7 @@
             grid-template-columns: 1fr 1fr;
             gap: 40px;
             padding: 50px;
+
             .card {
                 border-radius: 16px;
                 margin: 0 auto;
@@ -132,32 +238,6 @@
         }
     }
 
-
-    .quienes-somos {
-        background-color: #eee;
-
-        .content-title {
-            @include titles-sections();
-            padding: 40px 0 0 0;
-        }
-
-        .manifiesto-index {
-            margin: auto;
-            padding: 50px 0 60px 0;
-            text-align: center;
-            width: 50%;
-            font-family: 'Times New Roman', Times, serif;
-            color: #777;
-            font-size: 1.5rem;
-
-            @include btn-primary(150px);
-
-            .custom-btn {
-                margin: 40px;
-                text-decoration: none;
-            }
-        }
-    }
 
     .img-book {
         @include libro;
