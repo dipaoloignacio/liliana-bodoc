@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/liliana-bodoc/static/css/main.1627d32a.css",
-    "main.js": "/liliana-bodoc/static/js/main.ed98f3bc.js",
+    "main.css": "/liliana-bodoc/static/css/main.5142d22d.css",
+    "main.js": "/liliana-bodoc/static/js/main.6686ef5c.js",
     "static/media/elisa.jpg": "/liliana-bodoc/static/media/elisa.9531690d510b61cb6396.jpg",
     "static/media/lili-bg-null.png": "/liliana-bodoc/static/media/lili-bg-null.1d601046ca5f7c9b7db7.png",
     "static/media/logo-sinFondo1.png": "/liliana-bodoc/static/media/logo-sinFondo1.3f348fab6945e15e3e42.png",
@@ -15,7 +15,6 @@
     "static/media/fondo4.jpg": "/liliana-bodoc/static/media/fondo4.667928af5290587b6600.jpg",
     "static/media/simi-titi.jpg": "/liliana-bodoc/static/media/simi-titi.34c636f7e5f6682d1ed5.jpg",
     "static/media/actividad-21julio.jpg": "/liliana-bodoc/static/media/actividad-21julio.c2774222923a5cb9bea6.jpg",
-    "static/media/fundacion.jpg": "/liliana-bodoc/static/media/fundacion.f812847897f765a75b62.jpg",
     "static/media/21-julio.jpg": "/liliana-bodoc/static/media/21-julio.a4160b22ff6a15115df8.jpg",
     "static/media/el-rastro-de-la-canela.jpg": "/liliana-bodoc/static/media/el-rastro-de-la-canela.de3247b790b58a50b1e4.jpg",
     "static/media/libro.png": "/liliana-bodoc/static/media/libro.4e0f18d24c9192c0890d.png",
@@ -50,7 +49,6 @@
     "static/media/lili1.jpg": "/liliana-bodoc/static/media/lili1.04c2a0026a3b28f91111.jpg",
     "static/media/image2.jpg": "/liliana-bodoc/static/media/image2.ae0f78a05d20515bbf58.jpg",
     "static/media/tiempo-de-dragonesss.png": "/liliana-bodoc/static/media/tiempo-de-dragonesss.2d6b1c0b014dbb869e87.png",
-    "static/media/fundacion2.jpg": "/liliana-bodoc/static/media/fundacion2.584b5c12263b4ad78c2e.jpg",
     "static/media/foto4.jpg": "/liliana-bodoc/static/media/foto4.bd891cc5331fdaab0021.jpg",
     "static/media/image5.jpg": "/liliana-bodoc/static/media/image5.040f1050d278535c4a60.jpg",
     "static/media/image1.jpg": "/liliana-bodoc/static/media/image1.558bfbc8e732185177ac.jpg",
@@ -64,13 +62,12 @@
     "static/media/LeafyPlantSansFree.ttf": "/liliana-bodoc/static/media/LeafyPlantSansFree.e38ccb946ec787bf4f74.ttf",
     "static/media/foto12.jpg": "/liliana-bodoc/static/media/foto12.2420fbf942d0e2676d99.jpg",
     "static/media/image6.jpg": "/liliana-bodoc/static/media/image6.edb39d7bfa6ab36e2216.jpg",
-    "static/media/fundacion4.jpg": "/liliana-bodoc/static/media/fundacion4.c09dd5b499af34526304.jpg",
     "static/media/ondinas.jpg": "/liliana-bodoc/static/media/ondinas.b8980f5e63207507d8eb.jpg",
-    "static/media/fundacion3.jpg": "/liliana-bodoc/static/media/fundacion3.b130b0e1be621b156e1a.jpg",
     "static/media/foto8.jpg": "/liliana-bodoc/static/media/foto8.9336aacc43821a9b2f69.jpg",
     "static/media/el-mapa-imposible.png": "/liliana-bodoc/static/media/el-mapa-imposible.d187ce9a8e651abaaa9f.png",
     "static/media/logo-letras-bgf3f3f3.jpg": "/liliana-bodoc/static/media/logo-letras-bgf3f3f3.ce9841bb6d4ad74d94fc.jpg",
     "static/media/memorias-impuras.png": "/liliana-bodoc/static/media/memorias-impuras.bcb1d3e0811bb3964417.png",
+    "static/media/libro-icon.png": "/liliana-bodoc/static/media/libro-icon.5ac5a31149b45220457b.png",
     "static/media/tiempo-de-dragones.png": "/liliana-bodoc/static/media/tiempo-de-dragones.232d331c1ccf27d6af01.png",
     "static/media/foto11.jpg": "/liliana-bodoc/static/media/foto11.8eaf9ff6e71267eba87a.jpg",
     "static/media/foto13.jpg": "/liliana-bodoc/static/media/foto13.19524d1698015dc835e5.jpg",
@@ -89,11 +86,11 @@
     "static/media/amigos-por-el-viento.jpg": "/liliana-bodoc/static/media/amigos-por-el-viento.9836d4f0bc8379677230.jpg",
     "static/media/diez-en-un-barco.jpg": "/liliana-bodoc/static/media/diez-en-un-barco.753d1190a2694438d047.jpg",
     "index.html": "/liliana-bodoc/index.html",
-    "main.1627d32a.css.map": "/liliana-bodoc/static/css/main.1627d32a.css.map",
-    "main.ed98f3bc.js.map": "/liliana-bodoc/static/js/main.ed98f3bc.js.map"
+    "main.5142d22d.css.map": "/liliana-bodoc/static/css/main.5142d22d.css.map",
+    "main.6686ef5c.js.map": "/liliana-bodoc/static/js/main.6686ef5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1627d32a.css",
-    "static/js/main.ed98f3bc.js"
+    "static/css/main.5142d22d.css",
+    "static/js/main.6686ef5c.js"
   ]
 }
