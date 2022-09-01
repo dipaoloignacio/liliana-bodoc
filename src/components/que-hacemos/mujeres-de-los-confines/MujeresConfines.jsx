@@ -15,7 +15,9 @@ function MujeresConfines() {
                 A partir de esa fecha, una vez a la semana, primero bajo los frondosos árboles del Parque San Martín, luego en casas de familia y posteriormente en una sala Auxiliar de la Biblioteca Pública General San Martín, se renovó y aún se renueva la magia que produce el internarse en su poética con el inicio de la Lectura de su Saga, para proseguir con toda su obra. <br />
                 El Grupo Cultural Mujeres de Los Confines, integrante de la Fundación Liliana Bodoc, tiene como objetivo ser custodio de la Obra Literaria de Liliana Bodoc, difundir la misma en eventos culturales y en instituciones educativas con el fin de promover la lectura reflexiva y estética y la creación de bibliotecas.
             </p>
-        </div>
+            
+        
+        </div >
     )
 }
 

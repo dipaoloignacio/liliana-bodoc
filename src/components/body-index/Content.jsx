@@ -2,7 +2,7 @@ import React from 'react'
 import Banner from '../banner/Banner'
 import Videos from '../liliana-bodoc/videos/Videos';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faHandsHelping} from '@fortawesome/free-solid-svg-icons';
+import { faBookOpenReader } from '@fortawesome/free-solid-svg-icons';
 import CardContainer from './card-actividades/card-container/CardContainer';
 import { Link } from 'react-router-dom'
 
@@ -17,14 +17,12 @@ import FotoCard8 from '../../images/img-body/donaciones-libros.jpg'
 
 function Content() {
 
-    let url = "https://images.unsplash.com/photo-1606830733744-0ad778449672?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNocmlzdG1hcyUyMHRyZWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60";
     return (
         <div className='content-body'>
             <Banner></Banner>
-            <div className='division-banner'><h2 class="background double"><span><FontAwesomeIcon icon={faHandsHelping}/></span></h2></div>
             <div className="quienes-somos">
 
-            <iframe src="https://www.youtube.com/embed/r-uTa-FlWNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/r-uTa-FlWNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 <div className='manifiesto-index container'>
                     <div className="tittle-quienes-somos-index">
@@ -41,15 +39,17 @@ function Content() {
 
             </div>
 
+            <div className='division-banner'><h2 class="background double"><span><FontAwesomeIcon icon={faBookOpenReader} /></span></h2></div>
+
             <div className='actividades'>
                 <div className="content-title">
                     <h4 className='tittle-section'>Nuestr<span className='span-title'>as Acti</span>vidades</h4>
                 </div>
-                {/* <CardContainer /> */}
+                <CardContainer />
             </div>
 
-
-            {/* <div className="novedades">
+{/* 
+            <div className="novedades">
                 <div className="content-title">
                     <h4 className='tittle-section'>No<span className='span-title'>veda</span>des</h4>
                 </div>

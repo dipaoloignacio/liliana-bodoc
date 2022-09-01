@@ -1,9 +1,9 @@
-
 .bg-propio {
     background-color: #f3f3f3;
 }
 
 .navbar {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: sticky !important;
     border-bottom: solid 1px rgb(219, 219, 219);
 
@@ -19,7 +19,7 @@
         .nav-link {
             color: #222;
             padding: 10px 15px;
-            font-size: 1rem;
+            font-size: 0.9rem;
             border-bottom: solid 2px transparent;
 
             &:hover {

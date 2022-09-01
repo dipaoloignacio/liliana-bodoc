@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Libre+Baskerville:wght@400;700&display=swap');
+
 .contenedor-banner {
   user-select: none;
   display: flex;
@@ -19,7 +22,8 @@
       h1 {
         top: 0;
         color: #f5d0b9;
-        font-family: 'Libre Baskerville', serif;
+        // font-family: 'Libre Baskerville', serif;
+        font-family: 'Kaushan Script', cursive;
         font-size: 4rem;
         font-weight: 500;
         margin-left: 30px;
