@@ -1,8 +1,36 @@
+@media screen and (max-width:1024px) {
+    .content-body {
+        .quienes-somos {
+            flex-direction: column-reverse;
+
+            iframe {
+                display: block;
+                width: 80%;
+                height: 400px;
+                margin: 0 auto;
+            }
+
+            .manifiesto-index {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
     .content-body {
         .quienes-somos {
+            padding: 40px 10px;
+
+            iframe {
+                width: 90%;
+            }
+
             .manifiesto-index {
-                width: 70%;
+                width: 90%;
+                font-size: 1rem;
+                ;
             }
         }
     }
@@ -11,10 +39,14 @@
 @media screen and (max-width: 500px) {
     .content-body {
         .quienes-somos {
+            padding: 30px 5px;
+
+            iframe {
+                height: 300px;
+            }
+
             .manifiesto-index {
-                width: 85%;
-                padding: 0;
-                font-size: 1.1rem;
+                padding-bottom: 10px;
             }
         }
 

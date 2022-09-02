@@ -6,19 +6,19 @@ let cards = [
     {
         title: 'Mujeres de los Confines',
         description: 'El Grupo Cultural Mujeres de Los Confines, integrante de la Fundación Liliana Bodoc, tiene como objetivo ser custodio de la Obra Literaria de Liliana Bodoc, difundir la misma en eventos culturales y en instituciones educativas con el fin de promover la lectura reflexiva y estética y la creación de bibliotecas.',
-        link: "/que-hacemos/mujeres-de-los-confines",
+        link: "/liliana-bodoc/que-hacemos/mujeres-de-los-confines",
         img:  foto
     },
     {
         title: 'Todos los 21 de julio',
         description: 'En homenaje a la entrañable escritora Liliana Bodoc. Día Provincial del Libro Infantil y Juvenil.',
-        link: '/que-hacemos/julio-actividad',
+        link: '/liliana-bodoc/que-hacemos/julio-actividad',
         img:  foto1 
     },
     {
         title: 'Contar para que ocurra',
         description: '“Contar para que ocurra” se trata de un evento artístico.La magia y la poesía de Liliana estarán presentes ese día entre nosotros, teatro, música y arte para celebrar su vida y su obra.',
-        link:'/que-hacemos/contar-para-que-ocurra',
+        link:'/liliana-bodoc/que-hacemos/contar-para-que-ocurra',
         img: foto2
     },
     {

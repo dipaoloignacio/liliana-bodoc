@@ -1,6 +1,7 @@
 @media screen and (max-width: 1200px) {
     .content-video {
         height: 700px;
+
         .carousel {
             .carousel-inner {
                 .carousel-item {
@@ -33,6 +34,7 @@
 @media screen and (max-width: 768px) {
     .content-video {
         height: 500px;
+
         .carousel {
             .carousel-inner {
                 .carousel-item {
@@ -48,6 +50,8 @@
 
 @media screen and (max-width: 500px) {
     .content-video {
+        height: 400px;
+
         .carousel {
             .carousel-inner {
                 .carousel-item {

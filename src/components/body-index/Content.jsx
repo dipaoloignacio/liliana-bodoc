@@ -1,31 +1,25 @@
 import React from 'react'
 import Banner from '../banner/Banner'
+import Scroll from '../animations/scroll/Scroll';
 import Videos from '../liliana-bodoc/videos/Videos';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBookOpenReader } from '@fortawesome/free-solid-svg-icons';
+import { motion } from 'framer-motion';
 import CardContainer from './card-actividades/card-container/CardContainer';
 import { Link } from 'react-router-dom'
 
-import FotoCard1 from '../../images/img-body/21-de-julio/actividad-21julio.jpg'
-import FotoCard2 from '../../images/img-body/mujeres-confines/mujeres-confines.jpg'
-import FotoCard3 from '../../images/img-body/contar-para-que-ocurra/contar.jpg'
-import FotoCard4 from '../../images/img-body/fundacion.jpg'
-import FotoCard5 from '../../images/img-body/fundacion2.jpg'
-import FotoCard6 from '../../images/img-body/fundacion3.jpg'
-import FotoCard7 from '../../images/img-body/fundacion4.jpg'
-import FotoCard8 from '../../images/img-body/donaciones-libros.jpg'
+import fotoIcon from '../../images/img-body/libro-icon.png'
 
 function Content() {
 
     return (
         <div className='content-body'>
             <Banner></Banner>
+
             <div className="quienes-somos">
 
                 <iframe src="https://www.youtube.com/embed/r-uTa-FlWNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 <div className='manifiesto-index container'>
-                    <div className="tittle-quienes-somos-index">
+                    <div className="content-title">
                         <h3 className='tittle-section'>¿QUIE<span className='span-title'>NES <span className='color-letter'>SO</span></span><span className='color-letter'>MOS</span>?</h3>
                     </div>
                     ¿Qué imaginamos, qué proyectamos cuando pensamos en ponerle a la Fundación el nombre de Liliana Bodoc.?<br />
@@ -39,16 +33,22 @@ function Content() {
 
             </div>
 
-            <div className='division-banner'><h2 class="background double"><span><FontAwesomeIcon icon={faBookOpenReader} /></span></h2></div>
+            <div className='division-banner'>
+                <h2 class="background double">
+                    <span ><img src={fotoIcon} alt="" /></span>
+                </h2>
+            </div>
 
             <div className='actividades'>
                 <div className="content-title">
-                    <h4 className='tittle-section'>Nuestr<span className='span-title'>as Acti</span>vidades</h4>
+                    <h4 className='tittle-section'>
+                        <span className='color-letter'>Nuestr</span><span className='span-title'><span className='color-letter'>as</span> Acti</span>vidades
+                    </h4>
                 </div>
                 <CardContainer />
             </div>
 
-{/* 
+            {/* 
             <div className="novedades">
                 <div className="content-title">
                     <h4 className='tittle-section'>No<span className='span-title'>veda</span>des</h4>
@@ -105,6 +105,7 @@ function Content() {
             </div> */}
 
             <Videos></Videos>
+            <div className='sticky-bottom'><Scroll /></div>
 
         </div>
     )

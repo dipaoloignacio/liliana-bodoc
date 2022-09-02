@@ -21,17 +21,17 @@ function App() {
     <BrowserRouter>
       <MenuCabecera />
       <Routes>
-        <Route path="/" element={<Content />} />
-        <Route path="/quienes-somos" element={<QuienesSomos />} />
-        <Route path="/liliana-bodoc" element={<LilianaBodoc />} />
-        <Route path="/liliana-bodoc/biografia" element={<Biografia />} />
-        <Route path="/liliana-bodoc/obras" element={<ContenedorListaDeLibros />} />
-        <Route path="/liliana-bodoc/21-de-julio" element={<DiaDeJulio />} />
-        <Route path="/liliana-bodoc/videos" element={<Videos />} />
-        <Route path="/que-hacemos" element={<QueHacemos />} />
-        <Route path="/que-hacemos/mujeres-de-los-confines" element={<MujeresConfines />} />
-        <Route path="/que-hacemos/julio-actividad" element={<JulioActividad />} />
-        <Route path="/que-hacemos/contar-para-que-ocurra" element={<ContarParaQueOcurra />} />
+        <Route path="/liliana-bodoc" element={<Content />} />
+        <Route path="/liliana-bodoc/quienes-somos" element={<QuienesSomos />} />
+        <Route path="/liliana-bodoc/liliana-bodoc" element={<LilianaBodoc />} />
+        <Route path="/liliana-bodoc/liliana-bodoc/biografia" element={<Biografia />} />
+        <Route path="/liliana-bodoc/liliana-bodoc/obras" element={<ContenedorListaDeLibros />} />
+        <Route path="/liliana-bodoc/liliana-bodoc/21-de-julio" element={<DiaDeJulio />} />
+        <Route path="/liliana-bodoc/liliana-bodoc/videos" element={<Videos />} />
+        <Route path="/liliana-bodoc/que-hacemos" element={<QueHacemos />} />
+        <Route path="/liliana-bodoc/que-hacemos/mujeres-de-los-confines" element={<MujeresConfines />} />
+        <Route path="/liliana-bodoc/que-hacemos/julio-actividad" element={<JulioActividad />} />
+        <Route path="/liliana-bodoc/que-hacemos/contar-para-que-ocurra" element={<ContarParaQueOcurra />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     margin: 25px auto;
-    padding: 0 15px;
     box-shadow: 0 3px 7px -1px rgba(#000, .1);
     margin-bottom: 1.6%;
     background: $color_white;
@@ -11,14 +10,6 @@
     border-radius: 5px;
     overflow: hidden;
     z-index: 0;
-
-    a {
-        color: inherit;
-
-        &:hover {
-            color: $color_prime;
-        }
-    }
 
     &:hover {
         .photo {
@@ -47,15 +38,18 @@
         background: $color_white;
         position: relative;
         z-index: 1;
-        
+
         h1 {
             line-height: 1;
             margin: 0;
             font-size: 1.7rem;
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
         .read-more {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
             @include btn-primary(100px);
         }
     }
@@ -66,6 +60,7 @@
 
         &:first-of-type {
             margin-top: 1.25rem;
+            margin-bottom: 2.5rem;
 
             &:before {
                 content: "";
@@ -80,6 +75,7 @@
     }
 
     &:hover {
+
         .details {
             left: 0%;
         }
@@ -90,6 +86,7 @@
         max-width: 700px;
         min-height: 250px;
         padding: 0;
+
         .meta {
             flex-basis: 40%;
             height: auto;
