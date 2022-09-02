@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/liliana-bodoc/static/css/main.5e280003.css",
-    "main.js": "/liliana-bodoc/static/js/main.d2c0dbb6.js",
+    "main.css": "/liliana-bodoc/static/css/main.1013ec9a.css",
+    "main.js": "/liliana-bodoc/static/js/main.0554aa67.js",
     "static/media/elisa.jpg": "/liliana-bodoc/static/media/elisa.9531690d510b61cb6396.jpg",
     "static/media/lili-bg-null.png": "/liliana-bodoc/static/media/lili-bg-null.1d601046ca5f7c9b7db7.png",
     "static/media/logo-sinFondo1.png": "/liliana-bodoc/static/media/logo-sinFondo1.3f348fab6945e15e3e42.png",
@@ -46,7 +46,6 @@
     "static/media/image8.jpg": "/liliana-bodoc/static/media/image8.06e490e4e569c7ee3b6e.jpg",
     "static/media/tiempo-de-dragoness.png": "/liliana-bodoc/static/media/tiempo-de-dragoness.1608cf4747015f659a3e.png",
     "static/media/sucedio-en-colores.png": "/liliana-bodoc/static/media/sucedio-en-colores.a24e787b77a1cdc88788.png",
-    "static/media/lili1.jpg": "/liliana-bodoc/static/media/lili1.04c2a0026a3b28f91111.jpg",
     "static/media/image2.jpg": "/liliana-bodoc/static/media/image2.ae0f78a05d20515bbf58.jpg",
     "static/media/tiempo-de-dragonesss.png": "/liliana-bodoc/static/media/tiempo-de-dragonesss.2d6b1c0b014dbb869e87.png",
     "static/media/foto4.jpg": "/liliana-bodoc/static/media/foto4.bd891cc5331fdaab0021.jpg",
@@ -71,6 +70,7 @@
     "static/media/tiempo-de-dragones.png": "/liliana-bodoc/static/media/tiempo-de-dragones.232d331c1ccf27d6af01.png",
     "static/media/foto11.jpg": "/liliana-bodoc/static/media/foto11.8eaf9ff6e71267eba87a.jpg",
     "static/media/foto13.jpg": "/liliana-bodoc/static/media/foto13.19524d1698015dc835e5.jpg",
+    "static/media/libro-icon2.png": "/liliana-bodoc/static/media/libro-icon2.56db3e8b428e6b0a4fd5.png",
     "static/media/image9.jpg": "/liliana-bodoc/static/media/image9.521dcfdc34f7c08d713c.jpg",
     "static/media/foto15.jpg": "/liliana-bodoc/static/media/foto15.79d68ffdb31dc4a988ef.jpg",
     "static/media/el-arte-de-los-confines.jpg": "/liliana-bodoc/static/media/el-arte-de-los-confines.2a941e35f348092df5fe.jpg",
@@ -78,6 +78,7 @@
     "static/media/grupo-childrens.png": "/liliana-bodoc/static/media/grupo-childrens.d0f7227c99de45834019.png",
     "static/media/lili3.jpg": "/liliana-bodoc/static/media/lili3.ca1f14db0637949a341b.jpg",
     "static/media/los-dias-de-la-sombra.jpg": "/liliana-bodoc/static/media/los-dias-de-la-sombra.330218acae7746ca83b3.jpg",
+    "static/media/libro-icon3.png": "/liliana-bodoc/static/media/libro-icon3.26823f74c4e30bcec068.png",
     "static/media/foto9.jpg": "/liliana-bodoc/static/media/foto9.1ad7f6a26ed48e458f5c.jpg",
     "static/media/Higher.ttf": "/liliana-bodoc/static/media/Higher.34548afbba62f1eaa7dd.ttf",
     "static/media/foto10.jpg": "/liliana-bodoc/static/media/foto10.979b6e7fd63b24a33322.jpg",
@@ -86,11 +87,11 @@
     "static/media/amigos-por-el-viento.jpg": "/liliana-bodoc/static/media/amigos-por-el-viento.9836d4f0bc8379677230.jpg",
     "static/media/diez-en-un-barco.jpg": "/liliana-bodoc/static/media/diez-en-un-barco.753d1190a2694438d047.jpg",
     "index.html": "/liliana-bodoc/index.html",
-    "main.5e280003.css.map": "/liliana-bodoc/static/css/main.5e280003.css.map",
-    "main.d2c0dbb6.js.map": "/liliana-bodoc/static/js/main.d2c0dbb6.js.map"
+    "main.1013ec9a.css.map": "/liliana-bodoc/static/css/main.1013ec9a.css.map",
+    "main.0554aa67.js.map": "/liliana-bodoc/static/js/main.0554aa67.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e280003.css",
-    "static/js/main.d2c0dbb6.js"
+    "static/css/main.1013ec9a.css",
+    "static/js/main.0554aa67.js"
   ]
 }
