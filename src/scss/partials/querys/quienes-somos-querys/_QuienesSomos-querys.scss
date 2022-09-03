@@ -1,7 +1,8 @@
 @media screen and (max-width: 768px) {
     .quienes-somos {
         .content-manifiesto {
-            width: 90% !important;
+            width: 80% !important;
+
             .manifiesto-romina {
                 font-size: 1.1rem;
             }
@@ -10,8 +11,9 @@
                 font-size: 1.1rem;
             }
         }
-        .fotos{
-            img{
+
+        .fotos {
+            img {
                 max-width: 150px;
             }
         }

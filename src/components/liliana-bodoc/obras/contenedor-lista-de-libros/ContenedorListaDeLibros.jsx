@@ -3,25 +3,27 @@ import { useState } from 'react';
 import obras from '../../../../Data/Biblioteca/Biblioteca';
 import ListaDeLibros from '../lista-de-libros/ListaDeLibros';
 
-function ContenedorListaDeLibros() {
+function ContenedorListaDeLibros({ isInLiliana }) {
     const [libros, setLibros] = useState([]);
     const [pagination, setPagination] = useState(1);
 
     useEffect(() => {
         setLibros(obras.filter((libro) => libro.page === pagination));
+        if (isInLiliana === 1) {
+            window.scrollTo(0, window.innerHeight * 2);
+        } else {
+            window.scrollTo(0, 0)
+        }
     }, [pagination]);
 
-    const prev = () => {
-        if (pagination > 1) {
-            setPagination(prev => prev - 1);
+    const changePages = (numero) => {
+        if (numero === 1 && pagination < 8) {
+            setPagination(pagination + 1);
         }
-    }
+        if (numero === -1 && pagination > 1) {
+            setPagination(pagination - 1);
+        }
 
-    const next = () => {
-        if (pagination < 8) {
-            setPagination(next => next + 1);
-            console.log(pagination)
-        }
     }
 
     return (
@@ -32,8 +34,8 @@ function ContenedorListaDeLibros() {
             <ListaDeLibros libros={libros} />
             <nav aria-label="Page navigation example">
                 <ul className="pagination justify-content-center pb-5">
-                    <li class="page-item">
-                        <button onClick={() => prev()} className="page-link text-dark">Anterior</button>
+                    <li className={pagination !== 1 ? 'page-item' : 'd-none'}>
+                        <button onClick={() => changePages(-1)} className="page-link text-dark">Anterior</button>
                     </li>
                     <li className="page-item">
                         <button onClick={() => setPagination(1)} className="page-link text-dark">1</button>
@@ -59,8 +61,8 @@ function ContenedorListaDeLibros() {
                     <li className="page-item">
                         <button onClick={() => setPagination(8)} className="page-link text-dark">8</button>
                     </li>
-                    <li class="page-item">
-                        <button onClick={next} className="page-link text-dark">Siguiente</button>
+                    <li class={pagination !== 8 ? 'page-item' : 'd-none'}>
+                        <button onClick={() => changePages(1)} className="page-link text-dark">Siguiente</button>
                     </li>
                 </ul>
             </nav>

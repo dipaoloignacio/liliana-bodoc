@@ -1,27 +1,49 @@
 import React from 'react'
-
+import { motion } from 'framer-motion'
 import foto from '../../images/img-quienes-somos/Liliana-Bodoc.jpg'
-import foto1 from '../../images/img-quienes-somos/lili1.jpg'
+import libroIcon from '../../images/img-body/libro-icon.png'
+import libroIcon1 from '../../images/img-body/libro-icon2.png'
+import libroIcon2 from '../../images/img-body/libro-icon3.png'
 import foto2 from '../../images/img-quienes-somos/lili2.jpg'
 import foto3 from '../../images/img-quienes-somos/lili3.jpg'
 import foto4 from '../../images/img-quienes-somos/libro.png'
+import logo from '../../images/img-header/logo-sinFondo1.png'
 import foto5 from '../../images/img-quienes-somos/grupo-childrens.png'
+import { useEffect } from 'react'
+import AnimationLeftToRight from '../animations/book-animation/AnimationLeftToRight'
+import ViewAnimation from '../animations/ViewAnimation'
 
 function QuienesSomos() {
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className='quienes-somos'>
+      <motion.img
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2 }}
+        style={{ width: '150px' }}
+        className="d-block m-auto mt-5"
+        src={logo} alt="" />
+
       <div className='content-title'>
-        <h1 className='tittle-section'>Fun<span className='span-title'>dac</span>ión.</h1>
+        <h1 className='tittle-section'><span className='color-letter'>Fun<span className='span-title'>dac</span>ión.</span></h1>
       </div>
-      <div className='container'>
+      <div className=''>
         <div className='fotos'>
-          <img src={foto} alt="" />
+
         </div>
         <div className='content-manifiesto'>
           <div className="manifiesto-romina">
             <br />
             "La magia me autoriza a desobedecer y a morirme en la paz de los que saben que la piel es un límite impreciso. Y que tras la apariencia del final hay un ciclo de ave, tierra, niño, tortuga, dátil, mujer de nuevo. Otra mujer ¿y qué? La magia me autoriza a no tomarme en serio que soy un individuo único, irrepetible, piel adentro. Prefiero parecerme a cada ser. La magia me autoriza. Y ya muerta llegar a la tortuga, al alacrán, al risco, como quien vuelve a casa". <br />
+            <br />
+            <AnimationLeftToRight>
+              <img src={foto} alt="" />
+            </AnimationLeftToRight>
 
             <span className='span-autor'> Liliana Bodoc </span>
 
@@ -37,7 +59,9 @@ function QuienesSomos() {
 
             <span className='span-autor'> Romina Bodoc </span> <br />
           </div>
-          <img className='w-75 mb-5' src={foto3} alt="" />
+          <AnimationLeftToRight>
+            <img className='w-75 mb-5' src={foto3} alt="" />
+          </AnimationLeftToRight>
           <div>
             <div className="manifiesto-silvia">
               ¿Qué imaginamos, qué proyectamos cuando pensamos en ponerle a la Fundación el nombre de Liliana Bodoc.? <br />
@@ -90,10 +114,11 @@ function QuienesSomos() {
 
               <span className='span-autor'> Silvia Chiavetta </span><br />
             </div>
-            <img className='w-75 mb-5' src={foto2} alt="" />
+            <AnimationLeftToRight>
+              <img className='mb-5' src={foto2} alt="" />
+            </AnimationLeftToRight>
           </div>
         </div>
-
       </div>
 
       <div className="comunidad">
@@ -101,6 +126,7 @@ function QuienesSomos() {
           <h1 className='tittle-section'>Com<span className='span-title'>uni</span>dad.</h1>
         </div>
         <div className="container">
+          {/* <ViewAnimation> */}
           <ul className="step-list">
             <li className="step-list__item">
               <div className="step-list__item__inner">
@@ -111,9 +137,11 @@ function QuienesSomos() {
                     <p>Secretario: <span className='comunidad-nombres'>"Alberto Eugenio Marino"</span> 	</p>
                     <p>Tesorero: <span className='comunidad-nombres'>"Antonio Jorge Bodoc"</span> 	</p>
                   </div>
-                  <div className="icon">
-                    <img className='icon-libro' src={foto4} alt="Check" />
-                  </div>
+                  <ViewAnimation>
+                    <div className="icon">
+                      <img className='icon-libro' src={libroIcon} alt="Check" />
+                    </div>
+                  </ViewAnimation>
                 </div>
               </div>
             </li>
@@ -126,13 +154,14 @@ function QuienesSomos() {
                     <p>	Antropóloga: <span className='comunidad-nombres'>"Romina Bodoc"</span> </p>
                     <p>	Ilustrador: <span className='comunidad-nombres'>"Gonzalo Kenny"</span> </p>
                   </div>
-
-                  <div className="icon">
-                    {/* <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/13060/mail_outline_copy.svg" alt="Check" /> */}
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/13060/heart.svg" alt="Check" />
-                  </div>
+                  <ViewAnimation>
+                    <div className="icon">
+                      <img className='icon-libro' src={libroIcon1} alt="Check" />
+                    </div>
+                  </ViewAnimation>
                 </div>
               </div>
+
             </li>
             <li className="step-list__item">
               <div className="step-list__item__inner">
@@ -143,10 +172,11 @@ function QuienesSomos() {
                     <p>Editorial: <span className='comunidad-nombres'>"Penguin Random House"</span></p>
                     <p>Editorial: <span className='comunidad-nombres'>"Norma - Kapelusz"</span></p>
                   </div>
-
-                  <div className="icon">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/13060/heart.svg" alt="Check" />
-                  </div>
+                  <ViewAnimation>
+                    <div className="icon">
+                      <img className='icon-libro' src={libroIcon2} alt="Check" />
+                    </div>
+                  </ViewAnimation>
                 </div>
               </div>
             </li>
@@ -160,10 +190,11 @@ function QuienesSomos() {
                     <p>Liliana Bodoc en el Aula: <a href="https://www.facebook.com/groups/595643973790806" target={"_blank"}>Link aqui</a></p>
                     <p>Liliana Bodoc: fan e lettori italiani <a href="https://www.facebook.com/groups/205895256810241" target={"_blank"}>Link aqui</a></p>
                   </div>
-
-                  <div className="icon">
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/13060/calendar.svg" alt="Check" />
-                  </div>
+                  <ViewAnimation>
+                    <div className="icon">
+                      <img className='icon-libro' src={libroIcon} alt="Check" />
+                    </div>
+                  </ViewAnimation>
                 </div>
               </div>
             </li>

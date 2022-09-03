@@ -85,6 +85,9 @@
             font-size: 1.2rem;
             margin-right: 50px;
 
+            .color-letter{
+                color: #982453
+            }
             @include btn-primary(150px);
 
             .custom-btn {

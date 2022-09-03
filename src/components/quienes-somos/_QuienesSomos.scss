@@ -3,11 +3,21 @@
 
     .content-title {
         @include titles-sections();
+        
     }
 
     .content-manifiesto {
         width: 50%;
         margin: 0 auto;
+
+        img {
+            display: block;
+            max-width: 250px;
+            height: auto;
+            border: solid 1px #999;
+            padding: 5px;
+            margin: 0 auto;
+        }
 
         .manifiesto-romina {
             h3 {
@@ -16,11 +26,10 @@
                 color: #555;
             }
 
-            font-family: 'Times New Roman',
-            Times,
+            font-family: 'Libre Baskerville',
             serif;
             color: #444;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
 
             .span-autor {
                 display: block;
@@ -40,21 +49,14 @@
     .fotos {
         margin: 0 auto;
 
-        img {
-            display: block;
-            max-width: 250px;
-            height: auto;
-            border: solid 1px #999;
-            padding: 5px;
-            margin: 0 auto;
-        }
+
     }
 }
 
 .comunidad {
     // @import "breakpoint";
     // @import "susy";
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 100%;
     line-height: 1.5;
     font-size: inherit;
@@ -255,7 +257,7 @@
                 height: $circleSizeSmall;
                 padding: $circlePaddingSmall;
                 position: absolute;
-                left: -9px;
+                left: -25px;
                 top: 42px;
             }
 
@@ -302,7 +304,6 @@
             }
 
             .icon {
-                width: $circleSizeLarge;
                 height: $circleSizeLarge;
                 padding: $circlePaddingLarge;
             }

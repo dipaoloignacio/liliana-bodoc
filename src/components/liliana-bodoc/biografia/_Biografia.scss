@@ -2,7 +2,7 @@
     @include titles-sections();
 
     .tittle-section {
-        color: #683047;
+        color: $color_prime;
     }
 
     .span-title {
@@ -22,9 +22,9 @@
 }
 
 .biografia {
-    max-width: 70%;
+    width: 50%;
     margin: 60px auto;
-    font-family: 'Times New Roman', Times, serif;
-    color: #666;
+    font-family: 'Libre Baskerville', serif;
+    color: #222;
     font-size: 1.2rem;
 }

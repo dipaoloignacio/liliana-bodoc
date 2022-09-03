@@ -7,8 +7,13 @@ import CardContainer from './card-actividades/card-container/CardContainer';
 import { Link } from 'react-router-dom'
 
 import fotoIcon from '../../images/img-body/libro-icon.png'
+import { useEffect } from 'react';
 
 function Content() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
 
     return (
         <div className='content-body'>
@@ -28,7 +33,7 @@ function Content() {
 
                     Como haría Liliana, <span className='color-letter'>abrimos nuestra fundación</span> como una casa, o como se puede abrir un corazón. <br />
 
-                    <Link className="custom-btn btn-3" to='/quienes-somos'><span>Conocenos</span></Link>
+                    <Link className="custom-btn btn-3" to='/liliana-bodoc/quienes-somos'><span>Conocenos</span></Link>
                 </div>
 
             </div>

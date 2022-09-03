@@ -1,6 +1,8 @@
 @media screen and (max-width:1200px) {
 
     // Bibliografia
+
+    //obras
     .content-obras {
         .contet-libro {
             min-width: 90%;
@@ -21,20 +23,32 @@
                 }
             }
         }
-        ul{
+
+        ul {
             padding-bottom: 20px !important;
         }
 
-        .fondo-curvo{
+        .fondo-curvo {
             min-height: 100px;
             padding-top: 0;
         }
     }
 }
 
+@media screen and (max-width: 768px) {
+    .biografia {
+        width: 80%;
+    }
+}
+
 @media screen and (max-width:500px) {
 
     // Bibliografia
+    .biografia {
+        font-size: 1rem;
+    }
+
+    //obras
     .content-obras {
         .contet-libro {
             min-width: 90%;
