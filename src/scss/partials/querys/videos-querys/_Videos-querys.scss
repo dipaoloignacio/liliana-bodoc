@@ -50,13 +50,21 @@
 
 @media screen and (max-width: 500px) {
     .content-video {
-        height: 400px;
+        height: 500px;
 
         .carousel {
+            .carousel-control-prev{
+                bottom: -350px;
+                margin-left: 10px;
+            }
+            .carousel-control-next{
+                bottom: -350px;
+                margin-right: 10px;
+            }
             .carousel-inner {
                 .carousel-item {
                     .video {
-                        width: 85%;
+                        width: 95%;
                         height: 300px;
                     }
                 }

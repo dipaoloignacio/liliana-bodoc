@@ -3,7 +3,8 @@
 }
 
 .navbar {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: sticky !important;
     border-bottom: solid 1px rgb(219, 219, 219);
 
@@ -20,14 +21,14 @@
             color: #222;
             padding: 10px 15px;
             font-size: 0.9rem;
-            border-bottom: solid 2px transparent;
 
             &:hover {
                 color: #982453;
                 border-bottom: solid 1px #982453;
             }
         }
-        button{
+
+        button {
             border: none;
         }
     }

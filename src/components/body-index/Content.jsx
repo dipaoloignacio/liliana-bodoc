@@ -18,7 +18,7 @@ function Content() {
     return (
         <div className='content-body'>
             <Banner></Banner>
-
+            
             <div className="quienes-somos">
 
                 <iframe src="https://www.youtube.com/embed/r-uTa-FlWNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -50,6 +50,7 @@ function Content() {
                         <span className='color-letter'>Nuestr</span><span className='span-title'><span className='color-letter'>as</span> Acti</span>vidades
                     </h4>
                 </div>
+                <Scroll></Scroll>
                 <CardContainer />
             </div>
 
@@ -110,7 +111,6 @@ function Content() {
             </div> */}
 
             <Videos></Videos>
-            <div className='sticky-bottom'><Scroll /></div>
 
         </div>
     )

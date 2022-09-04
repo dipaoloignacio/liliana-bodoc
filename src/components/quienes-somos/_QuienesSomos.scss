@@ -1,11 +1,10 @@
 .quienes-somos {
     position: relative;
 
-    .content-title {
-        @include titles-sections();
-        
+    .content-title{
+        @include titles-sections($colo-title-grey)
     }
-
+    
     .content-manifiesto {
         width: 50%;
         margin: 0 auto;
@@ -54,8 +53,6 @@
 }
 
 .comunidad {
-    // @import "breakpoint";
-    // @import "susy";
     font-family: 'Libre Baskerville', serif;
     font-size: 100%;
     line-height: 1.5;

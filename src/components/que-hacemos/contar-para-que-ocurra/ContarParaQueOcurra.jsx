@@ -12,17 +12,17 @@ import foto3 from '../../../images/img-body/contar-para-que-ocurra/foto3.jpg'
 import { act } from 'react-dom/test-utils';
 
 
-function ContarParaQueOcurra({activado}) {
+function ContarParaQueOcurra({ activado }) {
 
     return (
 
-        <div>
-            <section className={`${(activado === 'true' ? 'fondo-curvo-activado' : 'fondo-curvo-desactivado')}`}>
+        <div className={activado === 'true' ? 'contar-content pt-5' : 'contar-content'}>
+            <section className={`${(activado === 'true' ? 'fondo-curvo-activado' : 'd-none')}`}>
                 <div className="curve"></div>
             </section>
 
             <div className="content-title">
-                <h3 className='tittle-section'>Contar <span className='span-title'>para que </span>ocurra</h3>
+                <h3 className='tittle-section'><span className='color-letter'>Contar</span> <span className='span-title'>para que </span>ocurra</h3>
             </div>
             <h5 className='title-contar'>"Contar para que ocurra" organizado por el grupo Mujeres de los Confines.</h5>
             <div className='mt-5'>

@@ -1,8 +1,8 @@
 .content-obras {
     background-color: #683047;
 
-    .tittle-section {
-        color: #e1e1e1;
+    .content-tittle{
+        @include titles-sections($color_white);
     }
 
     .pagination {

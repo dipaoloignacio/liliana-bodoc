@@ -9,7 +9,7 @@ function Liliana() {
     }, [])
 
     return (
-        <div >
+        <div className='biografia-content'>
             <div className="content-tittle">
                 <h2 className="tittle-section">Bio<span className='span-title'>gra</span>fía</h2>
             </div>

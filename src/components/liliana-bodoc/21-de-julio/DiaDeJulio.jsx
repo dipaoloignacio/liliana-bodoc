@@ -13,14 +13,13 @@ function DiaDeJulio() {
   }, [])
 
   return (
-    
-    <div className='dia-de-julio'>
+    <div>
       <div className="content-tittle">
-        <h2 className="tittle-section">Todos <span className='span-title'>los 21</span> de julio</h2>
+        <h1 className="tittle-section">Todos <span className='span-title'>los 21</span> de julio</h1>
       </div>
       <div className="content-text-21-julio">
         <h3 className='title-21-julio'>Día Provincial del Libro Infantil y Juvenil</h3>
-        <p className='text-21-julio'>
+        <p className='cotainer'>
           En homenaje a la entrañable escritora Liliana Bodoc, el Poder Legislativo provincial establece, a través de la ley 9079 del año 2018, el día 21 de julio de cada año como el Día Provincial del Libro Infantil y Juvenil. <br />
           Las acciones que se presentan en el marco de esta fecha, no solo pretenden recordar a una escritora maravillosa, que ha acercado la palabra poética a grandes y chicos de todo el mundo, sino también, intenta revalorizar la presencia del libro como puente fundamental e irremplazable entre la lectura y los niños, niñas y jóvenes de nuestra provincia.
         </p>

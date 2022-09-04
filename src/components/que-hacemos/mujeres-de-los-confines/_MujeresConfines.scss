@@ -1,6 +1,6 @@
 .mujeres-content {
     .content-title {
-        @include titles-sections
+        @include titles-sections($colo-title-grey);
     }
 
     .content-text {

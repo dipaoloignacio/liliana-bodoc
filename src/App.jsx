@@ -30,6 +30,7 @@ function App() {
         <Route path="/que-hacemos/mujeres-de-los-confines" element={<MujeresConfines />} />
         <Route path="/que-hacemos/julio-actividad" element={<JulioActividad />} />
         <Route path="/que-hacemos/contar-para-que-ocurra" element={<ContarParaQueOcurra />} />
+        <Route path="*" element={<h1>Nada por aca</h1>}/>
       </Routes>
       <Footer />
     </HashRouter>

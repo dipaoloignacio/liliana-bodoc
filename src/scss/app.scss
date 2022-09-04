@@ -1,19 +1,14 @@
-@font-face {
-    font-family: LeafyPlantSansFree;
-    src: url(../fonts/LeafyPlantSansFree.ttf);
-}
+//base
+@import './partials/base/typo.scss';
 
-@font-face {
-    font-family: Higer;
-    src: url(../fonts/Higher.ttf);
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 //animations
 @import '../components/animations/scroll/Scroll';
+
 // <----Partials--->
-@import "../scss/partials/variables";
-@import "../scss/partials/mixins";
+@import "../scss/partials/utilities/variables";
+@import "../scss/partials/utilities/mixins";
+
+//vendors
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // <----components--->
@@ -23,10 +18,10 @@
 @import "../components/body-index/card-actividades/card-container/CardContainer";
 @import "../components/quienes-somos/QuienesSomos";
 
-@import "../components/liliana-bodoc/biografia/Biografia";
+@import "../components/liliana-bodoc/21-de-julio/DiaDeJulio";
 @import "../components/liliana-bodoc/obras/libro/Libro";
 @import "../components/liliana-bodoc/obras/contenedor-lista-de-libros/ContenedorListaDeLibros";
-@import "../components/liliana-bodoc/21-de-julio/DiaDeJulio";
+@import "../components/liliana-bodoc/biografia/Biografia";
 @import "../components/liliana-bodoc/videos/Videos";
 
 @import "../components/que-hacemos/mujeres-de-los-confines/MujeresConfines";
@@ -35,4 +30,6 @@
 @import "../components/que-hacemos/contar-para-que-ocurra/primera-ed/PrimeraEd";
 
 @import "../components/footer/Footer";
+
+//querys
 @import "../scss/partials/querys/querys.scss";

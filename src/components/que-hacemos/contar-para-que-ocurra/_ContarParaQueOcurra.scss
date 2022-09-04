@@ -1,101 +1,106 @@
-.fondo-curvo-activado {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #fff;
-    margin-bottom: 100px;
+.contar-content {
+    overflow: hidden;
 
-    .curve {
-        position: absolute;
-        height: 120px;
-        width: 100%;
-        bottom: 0;
+    .fondo-curvo-activado {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #fff;
+        margin-bottom: 100px;
+
+        .curve {
+            position: absolute;
+            height: 120px;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+            background-color: $color-primary;
+        }
+
+        .curve::before {
+            content: '';
+            display: block;
+            position: absolute;
+            border-top: solid 5px #683047;
+            border-left: solid 5px #683047;
+            border-radius: 100% 36%;
+            width: 55%;
+            height: 100%;
+            transform: translate(85%, 60%);
+            background-color: #fff;
+        }
+
+        .curve::after {
+            content: '';
+            display: block;
+            position: absolute;
+            border-radius: 100% 70%;
+            border-bottom: solid 5px #fff;
+            border-right: solid 5px #fff;
+            width: 55%;
+            height: 100%;
+            background-color: #683047;
+            transform: translate(-4%, 40%);
+            z-index: 1;
+        }
+    }
+
+    .content-title {
+        @include titles-sections($colo-title-grey);
+    }
+
+    .title-contar {
         text-align: center;
     }
 
-    .curve::before {
-        content: '';
-        display: block;
-        position: absolute;
-        border-top: solid 5px #683047;
-        border-left: solid 5px #683047;
-        border-radius: 100% 36%;
-        width: 55%;
-        height: 100%;
-        transform: translate(85%, 60%);
-        background-color: #fff;
+    .title-edition {
+        text-align: center;
     }
 
-    .curve::after {
-        content: '';
+    .link-gallery {
         display: block;
-        position: absolute;
-        border-radius: 100% 70%;
-        border-bottom: solid 5px #fff;
-        border-right: solid 5px #fff;
-        width: 55%;
-        height: 100%;
-        background-color: #683047;
-        transform: translate(-4%, 40%);
-        z-index: 1;
+        text-align: center;
+        margin: 10px;
     }
-}
 
-.content-title {
-    @include titles-sections;
-}
-
-.title-contar {
-    text-align: center;
-}
-
-.title-edition {
-    text-align: center;
-}
-
-.link-gallery {
-    display: block;
-    text-align: center;
-    margin: 10px;
-}
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 50px 10%;
-}
-
-.gallery-item {
-    /* Minimum width of 24rem and grow to fit available space */
-    flex: 1 0 24rem;
-    /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-    margin: 1rem;
-    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-    overflow: hidden;
-}
-
-.gallery-image {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 400ms ease-out;
-}
-
-.gallery-image:hover {
-    transform: scale(1.15);
-}
-
-@supports (display: grid) {
     .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-        grid-gap: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 50px 10%;
     }
 
     .gallery-item {
-        margin: 0;
+        /* Minimum width of 24rem and grow to fit available space */
+        flex: 1 0 24rem;
+        /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+        margin: 1rem;
+        box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+        overflow: hidden;
+    }
+
+    .gallery-image {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 400ms ease-out;
+    }
+
+    .gallery-image:hover {
+        transform: scale(1.15);
+    }
+
+    @supports (display: grid) {
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+            grid-gap: 2rem;
+        }
+
+        .gallery-item {
+            margin: 0;
+        }
     }
 }

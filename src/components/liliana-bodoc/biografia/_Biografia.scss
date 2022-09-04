@@ -1,30 +1,21 @@
-.content-tittle {
-    @include titles-sections();
-
-    .tittle-section {
-        color: $color_prime;
+.biografia-content{    
+    .content-tittle {
+        @include titles-sections($color_prime);
     }
-
-    .span-title {
-        border-bottom: solid 1px #777;
-        padding-bottom: 10px;
+    
+    .foto-biografia {
+        display: block;
+        margin: auto;
+        width: 200px;
+        height: auto;
+        margin-bottom: 40px;
     }
-
-    padding: 30px;
-}
-
-.foto-biografia {
-    display: block;
-    margin: auto;
-    width: 200px;
-    height: auto;
-    margin-bottom: 40px;
-}
-
-.biografia {
-    width: 50%;
-    margin: 60px auto;
-    font-family: 'Libre Baskerville', serif;
-    color: #222;
-    font-size: 1.2rem;
+    
+    .biografia {
+        width: 50%;
+        margin: 60px auto;
+        font-family: 'Libre Baskerville', serif;
+        color: #222;
+        font-size: 1.2rem;
+    }
 }
