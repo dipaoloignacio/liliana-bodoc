@@ -9,7 +9,7 @@ import { isDisabled } from '@testing-library/user-event/dist/utils';
 
 function MenuCabecera() {
 
-    // comneto este codigo para darle efecto al navbar en un futuro al hacer scroll.
+    // comento este codigo para darle efecto al navbar en un futuro al hacer scroll.
     // const [navbar, setNavbar] = useState(false)
     // const changeBackground = () => {
     //     if (window.scrollY > 200) {

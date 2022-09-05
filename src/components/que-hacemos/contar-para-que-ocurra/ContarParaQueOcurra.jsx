@@ -25,6 +25,9 @@ function ContarParaQueOcurra({ activado }) {
                 <h3 className='tittle-section'><span className='color-letter'>Contar</span> <span className='span-title'>para que </span>ocurra</h3>
             </div>
             <h5 className='title-contar'>"Contar para que ocurra" organizado por el grupo Mujeres de los Confines.</h5>
+            
+            <p className='w-75 m-auto mt-4 text-center'>El Grupo Cultural Mujeres de Los Confines, integrante de la Fundación Liliana Bodoc, tiene como objetivo ser custodio de la Obra Literaria de Liliana Bodoc, difundir la misma en eventos culturales y en instituciones educativas con el fin de promover la lectura reflexiva y estética y la creación de bibliotecas.</p>
+
             <div className='mt-5'>
                 <h5 className='title-edition'>Primera edicion</h5>
                 <img class="img-primera-ed" src={foto} alt=""></img>

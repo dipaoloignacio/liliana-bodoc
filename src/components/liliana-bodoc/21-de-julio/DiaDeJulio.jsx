@@ -15,7 +15,7 @@ function DiaDeJulio() {
   return (
     <div>
       <div className="content-tittle">
-        <h1 className="tittle-section">Todos <span className='span-title'>los 21</span> de julio</h1>
+        <h1 className="tittle-section"><span className='color-letter'>Todos </span><span className='span-title'>los 21</span> de julio</h1>
       </div>
       <div className="content-text-21-julio">
         <h3 className='title-21-julio'>Día Provincial del Libro Infantil y Juvenil</h3>

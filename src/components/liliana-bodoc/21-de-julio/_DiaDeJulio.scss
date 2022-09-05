@@ -1,5 +1,5 @@
 .content-tittle{
-    @include titles-sections($color_prime)
+    @include titles-sections($colo-title-grey);
 }
 .content-text-21-julio {
     width: 60%;
