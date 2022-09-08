@@ -23,7 +23,6 @@ function ContenedorListaDeLibros({ isInLiliana }) {
         if (numero === -1 && pagination > 1) {
             setPagination(pagination - 1);
         }
-
     }
 
     return (

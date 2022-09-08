@@ -1,18 +1,13 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
-import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { useState } from 'react';
-
 
 function FormMessage() {
     const [formSend, setFormSend] = useState(false);
     const form = useRef();
 
-    const sendEmail = (e) => {
-        // e.preventDefault();
-        console.log(form.current);
-        emailjs.sendForm('nachobeatbox', 'template_ap8quob', form.current, '_96mtxYTIA0BDQxuw')
+    const sendEmail = () => {
+        emailjs.sendForm('service_sse07oe', 'template_vvjxefn', form.current, 'cyXeZCCwFdbgVMHUW')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -45,7 +40,6 @@ function FormMessage() {
                         if (!values.message) {
                             errores.message = 'ingresa un mensaje'
                         }
-
                         return errores;
                     }}
                     onSubmit={(values, { resetForm }) => {
@@ -56,7 +50,7 @@ function FormMessage() {
                     }}
                 >
                     {
-                        ({ values, errors, touched, handleChange, handleBlur }) => (
+                        ({ errors }) => (
                             <Form action="" ref={form}>
                                 <div className="user-box">
                                     <Field

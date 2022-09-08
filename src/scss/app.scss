@@ -1,18 +1,20 @@
 //base
 @import './partials/base/typo.scss';
-
-//animations
-@import '../components/animations/scroll/Scroll';
+@import './partials/base/general.scss';
 
 // <----Partials--->
 @import "../scss/partials/utilities/variables";
 @import "../scss/partials/utilities/mixins";
+
+//animations
+@import '../components/animations/scroll/Scroll';
 
 //vendors
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // <----components--->
 @import "../components/menuCabecera/MenuCabecera";
+@import "../components/donaciones/Donaciones";
 @import "../components/banner/Banner";
 @import "../components/body-index/Content";
 @import "../components/body-index/card-actividades/card-container/CardContainer";
@@ -30,6 +32,7 @@
 @import "../components/que-hacemos/contar-para-que-ocurra/primera-ed/PrimeraEd";
 
 @import "../components/footer/Footer";
-@import "../components/form/FormMessage";
+@import "../components/form/FormContact";
+
 //querys
 @import "../scss/partials/querys/querys.scss";

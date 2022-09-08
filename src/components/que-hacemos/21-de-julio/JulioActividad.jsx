@@ -23,15 +23,18 @@ function JulioActividad({ activado }) {
 
     return (
         <div className='content-julio-act'>
+
             <section className={`${(activado === 'true' ? 'fondo-curvo-activado' : 'fondo-curvo-desactivado')}`}>
                 <div className="curve"></div>
             </section>
+
             <div className="content-title">
                 <h3 className='tittle-section'>Celebramos a Liliana Bodoc</h3>
             </div>
+
             <div className="celebrando">
                 <div className="celebramos-2020">
-                    <h4 className='title-secundario'>Dia provincial del libro infantil y juvenil 2020</h4>
+                    <h4 className='text-center'>Dia provincial del libro infantil y juvenil 2020</h4>
                     <p>
                         El grupo<a href="https://www.facebook.com/groups/232232720667261" className='link-redirect' target={"_blank"}>“LAS MUJERES DE LOS CONFINES”</a>  , la Asociación EDELIJ y la compañía <a href="https://elalmaenunhilo.com/" className='link-redirect' target={"_blank"}>“EL ALMA EN UN HILO”</a> crearon una propuesta para celebrar los 20 años del libro “Los días del Venado”. Durante todo el mes de Julio diversos artistas, escritores, músicos, educadores por el arte, ilustradores y familiares se suman a celebrar a LILIANA BODOC. <br />
                     </p>

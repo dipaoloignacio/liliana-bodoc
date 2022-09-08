@@ -2,7 +2,8 @@ import React from 'react'
 import logo from '../../images/img-header/logo-sinFondo1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faYoutube, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-import FormMessage from '../form/FormMessage'
+import { faEnvelope, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import FormContact from '../form/FormContact'
 
 function Footer() {
   return (
@@ -11,7 +12,6 @@ function Footer() {
         <img src={logo} alt="" className='img-fluid d-block m-auto mb-5' />
         <p>-Fundacion Liliana Bodoc.</p>
         <div className='redes-section'>
-          <h6 >Redes Sociales</h6>
           <ul className="redes">
             <li className="icon facebook">
               <span className="nombre-red">Facebook</span>
@@ -36,17 +36,16 @@ function Footer() {
               <a href="pages/contact.html" target="_blank"><span><FontAwesomeIcon icon={faWhatsapp} /></span></a>
             </li>
           </ul>
+          <div>
+            <ul className='contac-list'>
+              <li> <FontAwesomeIcon icon={faEnvelope} /> mail: fundacionlilianabodoc@gmail.com</li>
+              <li> <FontAwesomeIcon icon={faPhone} /> Tel: +5492615100720</li>
+              <li> <FontAwesomeIcon icon={faLocationDot} /> Ubicacion: Mendoza-Argentina</li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div>
-        <ul>
-          <li>mail: example@example</li>
-          <li>Tel: +5413214515151</li>
-          <li>Ubicacion: Mendoza</li>
-          <li>Contacto: Fundacion</li>
-        </ul>
-      </div>
-      <FormMessage />
+      <FormContact />
     </div>
   )
 }
