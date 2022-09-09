@@ -1,3 +1,13 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $color_prime;
+    border-radius: 10px;
+    border: 3px solid $color_prime;
+}
+
 * {
     margin: 0;
     padding: 0;

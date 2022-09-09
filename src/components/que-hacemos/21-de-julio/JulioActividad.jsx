@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleRight, faAngleDoubleLeft } from '@fortawesome/free-solid-svg-icons';
 import imgJulio21 from '../../../Data/imgSrcData/imgJulio21';
@@ -55,7 +56,13 @@ function JulioActividad({ activado }) {
                     <h1 className='fw-bolder text-center p-5'>Dia provincial del libro infantil y juvenil 2021</h1>
                     <div className='fotos-2021'>
                         <img src={foto2} alt="" className='foto2-2021 img-fluid' />
-                        <button onClick={() => openGallery(2021)} className='link-gallery' to=''><FontAwesomeIcon icon={faAngleDoubleRight} /> Click galeria de fotos <FontAwesomeIcon icon={faAngleDoubleLeft} /></button>
+                        <motion.button
+                            whileHover={{ scale: 1.3 }}
+                            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                            onClick={() => openGallery(2021)}
+                            className='link-gallery'
+                        >
+                            <FontAwesomeIcon icon={faAngleDoubleRight} /> Click galeria de fotos <FontAwesomeIcon icon={faAngleDoubleLeft} /></motion.button>
                         {idGallery === 2021 ?
                             <GalleryPhotos dataImg={imgJulio21} closeGallery={closeGallery} viewGallery={viewGallery} />
                             : ''
@@ -71,7 +78,13 @@ function JulioActividad({ activado }) {
                     <h1 className='fw-bolder text-center p-5'>Dia provincial del libro infantil y juvenil 2022</h1>
                     <div className='fotos-2022'>
                         <img src={foto13} alt="" className='foto1-2022 img-fluid' />
-                        <button onClick={() => openGallery(2022)} className='link-gallery' to=''><FontAwesomeIcon icon={faAngleDoubleRight} /> Ver galeria de fotos <FontAwesomeIcon icon={faAngleDoubleLeft} /></button>
+                        <motion.button
+                            whileHover={{ scale: 1.3 }}
+                            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                            onClick={() => openGallery(2022)}
+                            className='link-gallery'
+                        >
+                            <FontAwesomeIcon icon={faAngleDoubleRight} /> Ver galeria de fotos <FontAwesomeIcon icon={faAngleDoubleLeft} /></motion.button>
                         {idGallery === 2022 ?
                             <GalleryPhotos dataImg={imgJulio22} closeGallery={closeGallery} viewGallery={viewGallery} />
                             : ''

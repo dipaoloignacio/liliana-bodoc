@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleRight, faAngleDoubleLeft } from '@fortawesome/free-solid-svg-icons';
 import GalleryPhotos from '../../gallery-photos/GalleryPhotos';
+
 // data...
 import contar1raEd from '../../../Data/imgSrcData/contar1raEd'
 import contar2daEd from '../../../Data/imgSrcData/contar2daEd'
