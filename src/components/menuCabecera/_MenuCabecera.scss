@@ -5,7 +5,6 @@
 .navbar {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: sticky !important;
-    border-bottom: solid 1px rgb(219, 219, 219);
 
     .logo {
         max-width: auto;
@@ -20,7 +19,7 @@
             color: #222;
             padding: 10px 15px;
             font-size: 0.9rem;
-            border-bottom: solid 1px #eee;
+            border-bottom: solid 1px #f3f3f3;
 
             &:hover {
                 color: #982453;

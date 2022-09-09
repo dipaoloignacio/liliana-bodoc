@@ -9,7 +9,7 @@
         align-items: center;
         min-height: 200px;
         padding-top: 100px;
-        background: #fff;
+        background: #eee;
         margin-bottom: 100px;
 
         .curve {
@@ -24,8 +24,8 @@
             content: '';
             display: block;
             position: absolute;
-            border-top: solid 5px #fff;
-            border-left: solid 5px #fff;
+            border-top: solid 5px #eee;
+            border-left: solid 5px #eee;
             border-radius: 100% 36%;
             width: 55%;
             height: 100%;
@@ -42,14 +42,14 @@
             border-right: solid 5px #683047;
             width: 55%;
             height: 100%;
-            background-color: #fff;
+            background-color: #eee;
             transform: translate(-4%, 40%);
             z-index: 1;
         }
     }
 
     .content-title {
-        @include titles-sections(rgb(217, 217, 217));
+        @include titles-sections(rgb(238, 238, 238));
         padding-top: 20px;
     }
 
@@ -57,125 +57,65 @@
         padding-bottom: 50px;
         color: #eee;
 
-        @mixin img-21-julio {
-            max-width: 100%;
-            display: block;
-            margin: auto;
-            border: solid 1px #eee;
-            padding: 5px;
-        }
-
         .celebramos-2020 {
-            max-width: 70%;
-            margin: 50px auto;
-            border-bottom: solid 1px #eee;
-
             p {
-                margin: 30px 0;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                max-width: 800px;
+                padding: 20px;
+                margin: auto;
+            }
 
-                .link-redirect {
-                    color: rgb(111, 200, 255);
+            a {
+                max-width: 700px;
+                img {
+                    display: block;
+                    max-width: 700px;
+                    margin: auto;
                 }
             }
-
-            .img-celebramos {
-                @include img-21-julio;
-            }
-        }
-
-        .fw-bolder {
-            text-align: center;
-            font-size: 1.5rem;
-            margin-bottom: 60px;
         }
 
         .celebramos-2021 {
-            margin: auto;
-            padding-bottom: 50px;
-
             .fotos-2021 {
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                align-items: center;
-                gap: 30px;
-                width: 80%;
-                margin-left: 10%;
+                img {
+                    display: block;
+                    margin: auto;
+                    max-width: 700px;
 
-                .foto1-2021 {
-                    width: 40%;
                 }
 
-                .foto2-2021 {
-                    width: 50%;
+                .link-gallery {
+                    display: block;
+                    margin: auto;
+                    text-align: center;
+                    border: none;
+                    background: none;
+                    height: 45px;
+                    font-size: 1.2rem;
+                    color: aqua;
                 }
             }
         }
 
         .celebramos-2022 {
-            max-width: 60%;
-            margin: auto;
-
-            .img-celebramos {
-                @include img-21-julio;
-            }
-
             .fotos-2022 {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                align-items: center;
-                gap: 30px;
-                width: 80%;
-                margin-left: 10%;
-
                 img {
-                    max-height: 300px;
+                    display: block;
+                    margin: auto;
+                    max-width: 500px;
                 }
 
+                .link-gallery {
+                    display: block;
+                    margin: auto;
+                    text-align: center;
+                    border: none;
+                    background: none;
+                    height: 45px;
+                    font-size: 1.2rem;
+                    color: aqua;
+                }
             }
-        }
-    }
-
-    .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        width: 80%;
-        margin: 50px 10%;
-
-        .gallery-item {
-            /* Minimum width of 24rem and grow to fit available space */
-            flex: 1 0 24rem;
-            /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-            margin: 1rem;
-            box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-            overflow: hidden;
-
-            .gallery-image {
-                display: block;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                transition: transform 400ms ease-out;
-            }
-
-            .gallery-image:hover {
-                transform: scale(1.15);
-            }
-
-        }
-    }
-
-    @supports (display: grid) {
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-            grid-gap: 2rem;
-        }
-
-        .gallery-item {
-            margin: 0;
         }
     }
 
@@ -205,14 +145,26 @@
 
     @include breakpoint(small) {
         .celebrando {
+            .celebramos-2020 {
+                a {
+                    img {
+                        max-width: 300px;
+                    }
+                }
+            }
+
             .celebramos-2021 {
                 .fotos-2021 {
-                    .foto2-2021 {
-                        width: 90%;
+                    img {
+                        max-width: 300px;
                     }
+                }
+            }
 
-                    .foto1-2021 {
-                        width: 70%;
+            .celebramos-2022 {
+                .fotos-2022 {
+                    img {
+                        max-width: 300px;
                     }
                 }
             }

@@ -1,10 +1,10 @@
 .quienes-somos {
     position: relative;
 
-    .content-title{
+    .content-title {
         @include titles-sections($colo-title-grey)
     }
-    
+
     .content-manifiesto {
         width: 50%;
         margin: 0 auto;
@@ -37,6 +37,11 @@
                 color: #111;
                 text-align: end;
                 margin: 20px
+            }
+
+            a {
+                text-decoration: none;
+                color: $color_prime;
             }
         }
 

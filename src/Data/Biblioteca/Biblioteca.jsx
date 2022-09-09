@@ -44,7 +44,7 @@ let obras = [
         year: 2000,
         titulo: "Los días del Venado",
         saga: "La Saga de Los Confines I",
-        editorial: "Ed. Norma . Suma de Letras ( Penguin R. House )",
+        editorial: "Norma . Suma de Letras ( Penguin R. House )",
         resenia: "Una invasión sin nombre avanza sobre Las Tierras Fértiles. Será la guerra entre el Bien y el Mal; una guerra frente a la que ningún ser vivo podrá permanecer indiferente. Un guerra que comenzó en la boca de la Muerte y se extendió sobre el mundo entero.",
         img: tapa1,
         page: 1
@@ -53,7 +53,7 @@ let obras = [
         id: 2,
         year: 2002,
         titulo: "Los días de la sombra",
-        editorial: "Ed. Norma . Suma de Letras ( Penguin R. House )",
+        editorial: "Norma . Suma de Letras ( Penguin R. House )",
         resenia: "El hijo de la Muerte fue derrotado. Pero luego de una respiración, que tardó cinco años del sol en entrar y salir del pecho, prepara una nueva invasión, redoblada en fuerza y en crueldad. Para lograr su propósito enviará a su propia madre al frente de las naves. Y se valdrá de las alianzas que consiguió en las Tierras Fértiles. Esta vez no bastará con la pelea heroica en el campo de batalla. Será necesario hacerse al mar, será necesario atravesar la Puerta que lleva al Tiempo Mágico. Mientras la resistencia se prepara, la Muerte recorre los caminos del continente.",
         saga: "La Saga de Los Confines II",
         img: tapa2,
@@ -63,7 +63,7 @@ let obras = [
         id: 3,
         year: 2003,
         titulo: "Diciembre Súper Álbum",
-        editorial: "Ed. Alfaguara Penguin Libros",
+        editorial: "Alfaguara Penguin Libros",
         resenia: "En el Súper Álbum de diciembre saldrá el último número de la historieta “El viajante”: un hombre que va de pueblo en pueblos tras el rastro del parque de diversiones “Budapest” y de su amada Natalia.El guionista y el dibujante trabajan para darle un final a la historia de Santiago. Los relatos de esta novela pertenecen a dos mundos: el de la ficción y el de la realidad. Y sus protagonistas nos transmiten sus experiencias en una trama llena de emoción y de suspenso.",
         img: tapa3,
         page: 1
@@ -72,8 +72,8 @@ let obras = [
         id: 4,
         year: 2004,
         titulo: "Sucedió en colores",
-        editorial: "Ed. Alfaguara juvenil Penguin Libros",
-        resenia: "Cada cuento, de modo poético y sutil, focaliza en un color. Los nombres de los personajes, los elementos y los sentimientos que se desprenden de la lectura se relacionan con ese tono. <br/> Cinco cuentos con pinceladas de amor, bravura y mucha magia.",
+        editorial: "Alfaguara juvenil Penguin Libros",
+        resenia: "Cada cuento, de modo poético y sutil, focaliza en un color. Los nombres de los personajes, los elementos y los sentimientos que se desprenden de la lectura se relacionan con ese tono. Cinco cuentos con pinceladas de amor, bravura y mucha magia.",
         img: tapa4,
         page: 1
     },
@@ -82,7 +82,7 @@ let obras = [
         year: 2004,
         titulo: "Los días del fuego",
         saga: "La Saga de Los Confines III",
-        editorial: "Ed. Norma . Suma de Letras ( Penguin R. House )",
+        editorial: "Norma . Suma de Letras ( Penguin R. House )",
         resenia: "La más grande y terrible guerra contra el Odio Eterno que se haya librado jamás está por concluir. Las Tierras Fértiles preparan a sus mejores hijos para enfrentarla. Mientras tanto, en las Tierras Antiguas la resistencia se organiza evitando los zarpazos de Misáianes, quien todo lo ve desde la impiadosa quietud de su monte.",
         img: tapa5,
         page: 1
@@ -110,7 +110,7 @@ let obras = [
         year: 2008,
         titulo: "El espejo africano",
         editorial: "SM",
-        resenia: "Esta es la historia de un espejo que va enlazando el destino de distintas personas en distintos lugares: una esclava africana, el general San Martín, un temeroso huérfano español... Y cuenta las arduas luchas que estos y tantos otros hombres y mujeres afrontaron para obtener la libertad. <br /> Una historia que empezó hace dos siglos, pero aún no ha terminado.",
+        resenia: "Esta es la historia de un espejo que va enlazando el destino de distintas personas en distintos lugares: una esclava africana, el general San Martín, un temeroso huérfano español... Y cuenta las arduas luchas que estos y tantos otros hombres y mujeres afrontaron para obtener la libertad. Una historia que empezó hace dos siglos, pero aún no ha terminado.",
         img: tapa8,
         page: 2
     },
@@ -154,7 +154,7 @@ let obras = [
         id: 13,
         year: 2011,
         titulo: "El mapa imposible",
-        resenia: "El Mapa Imposible es un relato atravesado por el ensueño de la infancia y la bruma del conocimiento. Mapa de no lugares, aquellos espacios donde pasan las cosas realmente importantes: el amor, la felicidad, el miedo. <br /> Una novela que se construye en el vaivén del tiempo y de los recuerdos.",
+        resenia: "El Mapa Imposible es un relato atravesado por el ensueño de la infancia y la bruma del conocimiento. Mapa de no lugares, aquellos espacios donde pasan las cosas realmente importantes: el amor, la felicidad, el miedo. Una novela que se construye en el vaivén del tiempo y de los recuerdos.",
         editorial: "Alfaguara. Penguin Random House",
         img: tapa13,
         page: 3
@@ -172,7 +172,7 @@ let obras = [
         id: 15,
         year: 2012,
         titulo: "Relatos de Los Confines - Oficio de búhos",
-        resenia: "No importa cuánto nos esforcemos en contar. La memoria tiene infinitas puertas y por eso nunca estará completa. Es solo dar cuenta de algo para que se abran cien vacíos, cien preguntas. ¿Cómo continuó la resistencia e n las Tierras Antiguas?  ¿Nacieron nuevos Brujos de la Tierra? ¿Qué ocurrió con la Destrenzada? ¿Y antes? Cien respuestas para que se abran cien nuevos vacíos, cien nuevas preguntas. <br /> Oficio de Búhos nos trae memorables relatos del universo de La Saga de Los Confines.",
+        resenia: "No importa cuánto nos esforcemos en contar. La memoria tiene infinitas puertas y por eso nunca estará completa. Es solo dar cuenta de algo para que se abran cien vacíos, cien preguntas. ¿Cómo continuó la resistencia e n las Tierras Antiguas?  ¿Nacieron nuevos Brujos de la Tierra? ¿Qué ocurrió con la Destrenzada? ¿Y antes? Cien respuestas para que se abran cien nuevos vacíos, cien nuevas preguntas.Oficio de Búhos nos trae memorables relatos del universo de La Saga de Los Confines.",
         editorial: "Suma de Letras",
         img: tapa15,
         page: 3
@@ -182,7 +182,7 @@ let obras = [
         year: 2013,
         titulo: "El perro del peregrino",
         editorial: "Alfaguara Juvenil – Penguin Random House",
-        resenia: "Un peregrino salva a un cachorro que fue arrojado a las aguas del Tiberíades. Con ayuda de la lavandera, este hombre le da un nombre: Miga de León. A partir de entonces, el perro y el peregrino van juntos: comparten el pan, la alegría y el miedo. Detrás de su padre camina Miga de León y huele el amor, la devoción y la traición de los hombres.<br/> El perro llevará al lector hasta el pie del madero, allí donde termina y comienza esta historia de un amor sin condiciones.",
+        resenia: "Un peregrino salva a un cachorro que fue arrojado a las aguas del Tiberíades. Con ayuda de la lavandera, este hombre le da un nombre: Miga de León. A partir de entonces, el perro y el peregrino van juntos: comparten el pan, la alegría y el miedo. Detrás de su padre camina Miga de León y huele el amor, la devoción y la traición de los hombres. El perro llevará al lector hasta el pie del madero, allí donde termina y comienza esta historia de un amor sin condiciones.",
         img: tapa16,
         page: 4
     },
@@ -190,7 +190,7 @@ let obras = [
         id: 17,
         year: 2013,
         titulo: "Una isla en el tiempo",
-        resenia: "Ivan vive junto a su abuela Amparo y una pareja de palomas Aura y Thales, pero la irresponsabilidad del hombre ante la naturaleza hace que esta se revele trayendo largos tiempos de inundaciones sobre la tierra.<br/> Un relato o novela corta de Liliana Bodoc, donde el amor y la fantasía son la salvación de sus personajes.",
+        resenia: "Ivan vive junto a su abuela Amparo y una pareja de palomas Aura y Thales, pero la irresponsabilidad del hombre ante la naturaleza hace que esta se revele trayendo largos tiempos de inundaciones sobre la tierra. Un relato o novela corta de Liliana Bodoc, donde el amor y la fantasía son la salvación de sus personajes.",
         editorial: "Gente Nueva",
         img: tapa17,
         page: 4
@@ -200,7 +200,7 @@ let obras = [
         year: 2013,
         titulo: "Memorias impuras",
         resenia: "Una novela tan parecida a nuestro pasado que se lee con la avidez lógica de quien asiste a su propia historia.  En un tiempo de revoluciones, un pueblo sueña en sublevarse, bajo la conducción de los maestros de la Logia Bagual.",
-        editorial: "Ed. Planeta Reedición Editorial Alfaguara Penguin Libros",
+        editorial: "Planeta Reedición Editorial Alfaguara Penguin Libros",
         img: tapa18,
         page: 4
     },
@@ -226,7 +226,7 @@ let obras = [
         id: 21,
         year: 2015,
         titulo: "'3155 o el número de la tristeza' en La historia se hace ficción",
-        editorial: " Ed. Norma",
+        editorial: " Norma",
         img: tapa21,
         page: 5
     },
@@ -306,7 +306,7 @@ let obras = [
         id: 30,
         year: 2017,
         titulo: "Tiempo de dragones 2: El elegido en su soledad",
-        resenia: "“El Elegido debía ponerse al frente de la Profecía y conducir la gran rebelión del año 1000. Posibilitar el regreso a un mundo donde humanos y dragones convivieran en hermandad … <br/> Segunda entrega de una excepcional saga sobre la hermandad entre humanos y dragones.",
+        resenia: "“El Elegido debía ponerse al frente de la Profecía y conducir la gran rebelión del año 1000. Posibilitar el regreso a un mundo donde humanos y dragones convivieran en hermandad … Segunda entrega de una excepcional saga sobre la hermandad entre humanos y dragones.",
         editorial: "Pez de Menta",
         img: tapa30,
         page: 6
@@ -369,7 +369,7 @@ let obras = [
         id: 37,
         year: 2021,
         titulo: "Una versión de Dios",
-        resenia: "Un libro inédito de Liliana Bodoc, ilustrado por Ana Luisa Stok sobre lo imprevisible, sobre el tiempo y su fugacidad.<br/> Varias historias se entrelazan para forma a esta versión, que Liliana llamó de Dios. Y que es, también, una versión del tiempo.",
+        resenia: "Un libro inédito de Liliana Bodoc, ilustrado por Ana Luisa Stok sobre lo imprevisible, sobre el tiempo y su fugacidad Varias historias se entrelazan para forma a esta versión, que Liliana llamó de Dios. Y que es, también, una versión del tiempo.",
         editorial: "Guadal",
         img: tapa37,
         page: 8

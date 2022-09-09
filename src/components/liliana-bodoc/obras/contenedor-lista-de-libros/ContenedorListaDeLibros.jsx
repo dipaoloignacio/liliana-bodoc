@@ -28,7 +28,7 @@ function ContenedorListaDeLibros({ isInLiliana }) {
     return (
         <div className='content-obras'>
             <div className="content-tittle">
-                <h2 className="tittle-section"><span className='span-title'>Bibliografia</span> </h2>
+                <h2 className="tittle-section"><span className='span-title'>Bibliografía</span> </h2>
             </div>
             <ListaDeLibros libros={libros} />
             <nav aria-label="Page navigation example">

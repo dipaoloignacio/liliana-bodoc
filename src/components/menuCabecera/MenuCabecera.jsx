@@ -11,7 +11,6 @@ function MenuCabecera() {
 
     function closeModal() {
         setViewModal(false);
-        console.log(viewModal)
     }
 
     // comento este codigo para darle efecto al navbar en un futuro al hacer scroll.
@@ -36,7 +35,6 @@ function MenuCabecera() {
 
                 <div className="navbar-collapse collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav d-flex me-auto mb-2 mb-lg-0">
-
                         <li className="nav-item">
                             <NavLink
                                 className="nav-link active"
@@ -55,7 +53,6 @@ function MenuCabecera() {
                                 activeClassName="active"
                                 to="/quienes-somos">QUIENES SOMOS</NavLink>
                         </li>
-
                         <li className="nav-item dropdown">
                             <button className="nav-link dropdown-toggle" >
                                 LILIANA BODOC
