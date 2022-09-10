@@ -1,0 +1,10 @@
+.content-novedades {
+    min-height: 50vh;
+    h1{
+        text-align: center
+    }
+    p{
+        text-align: center
+    }
+    @include libro;
+}

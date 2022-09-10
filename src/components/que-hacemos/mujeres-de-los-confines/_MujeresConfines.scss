@@ -1,4 +1,6 @@
 .mujeres-content {
+    padding-bottom: 40px;
+
     .content-title {
         @include titles-sections($colo-title-grey);
     }
@@ -10,13 +12,24 @@
         font-family: 'Libre Baskerville', serif;
     }
 
-    img {
+    .img-mujeres-confines {
         display: block;
         max-width: 300px;
         margin: auto;
         border: solid 1px #999;
         border-radius: 10px;
         padding: 5px;
+    }
+
+    .link-gallery {
+        display: block;
+        margin: auto;
+        text-align: center;
+        border: none;
+        background: none;
+        height: 45px;
+        font-size: 1.2rem;
+        color: $color_prime;
     }
 
     @media screen and (max-width: 600px) {

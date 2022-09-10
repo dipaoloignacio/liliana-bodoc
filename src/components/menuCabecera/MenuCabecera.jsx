@@ -78,7 +78,7 @@ function MenuCabecera() {
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">NOVEDADES</a>
+                            <NavLink className="nav-link active" aria-current="page" to="/novedades">NOVEDADES</NavLink>
                         </li>
                         <li className="nav-item">
                             <button onClick={() => { window.scrollTo(0, 50000) }} href="#" className="nav-link active" aria-current="page">CONTACTO</button>

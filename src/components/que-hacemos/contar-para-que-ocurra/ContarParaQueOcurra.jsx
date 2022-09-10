@@ -9,12 +9,14 @@ import contar1raEd from '../../../Data/imgSrcData/contar1raEd'
 import contar2daEd from '../../../Data/imgSrcData/contar2daEd'
 import contar3raEd from '../../../Data/imgSrcData/contar3raEd'
 import contar4taEd from '../../../Data/imgSrcData/contar4taEd'
+import contar6taEd from '../../../Data/imgSrcData/contar6taEd'
 
 // fotos....
 import foto from '../../../images/img-body/contar-para-que-ocurra/contar.jpg'
 import foto1 from '../../../images/img-body/contar-para-que-ocurra/foto1.jpg'
 import foto2 from '../../../images/img-body/contar-para-que-ocurra/foto2.jpg'
 import foto3 from '../../../images/img-body/contar-para-que-ocurra/foto3.jpg'
+import foto4 from '../../../images/img-body/contar-para-que-ocurra/sexta-ed/Contar-para-que-ocurra-6ta.jpg'
 
 let ediciones = [
     {
@@ -41,11 +43,16 @@ let ediciones = [
         img: foto3,
         dataBase: contar4taEd
     },
+    {
+        id: 5,
+        edicion: 'sexta',
+        img: foto4,
+        dataBase: contar6taEd
+    },
 ]
 function ContarParaQueOcurra({ activado }) {
     const [viewGallery, setViewGallery] = useState(false);
     const [idGallery, setIdGallery] = useState(0);
-
 
     function closeGallery() {
         setViewGallery(false);
@@ -57,8 +64,8 @@ function ContarParaQueOcurra({ activado }) {
     }
 
     useEffect(() => {
-        window.scrollTo(0,0);
-      }, [])
+        window.scrollTo(0, 0);
+    }, [])
 
     return (
 

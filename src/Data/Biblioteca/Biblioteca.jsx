@@ -61,11 +61,12 @@ let obras = [
     },
     {
         id: 3,
-        year: 2003,
-        titulo: "Diciembre Súper Álbum",
-        editorial: "Alfaguara Penguin Libros",
-        resenia: "En el Súper Álbum de diciembre saldrá el último número de la historieta “El viajante”: un hombre que va de pueblo en pueblos tras el rastro del parque de diversiones “Budapest” y de su amada Natalia.El guionista y el dibujante trabajan para darle un final a la historia de Santiago. Los relatos de esta novela pertenecen a dos mundos: el de la ficción y el de la realidad. Y sus protagonistas nos transmiten sus experiencias en una trama llena de emoción y de suspenso.",
-        img: tapa3,
+        year: 2004,
+        titulo: "Los días del fuego",
+        saga: "La Saga de Los Confines III",
+        editorial: "Norma . Suma de Letras ( Penguin R. House )",
+        resenia: "La más grande y terrible guerra contra el Odio Eterno que se haya librado jamás está por concluir. Las Tierras Fértiles preparan a sus mejores hijos para enfrentarla. Mientras tanto, en las Tierras Antiguas la resistencia se organiza evitando los zarpazos de Misáianes, quien todo lo ve desde la impiadosa quietud de su monte.",
+        img: tapa5,
         page: 1
     },
     {
@@ -79,12 +80,11 @@ let obras = [
     },
     {
         id: 5,
-        year: 2004,
-        titulo: "Los días del fuego",
-        saga: "La Saga de Los Confines III",
-        editorial: "Norma . Suma de Letras ( Penguin R. House )",
-        resenia: "La más grande y terrible guerra contra el Odio Eterno que se haya librado jamás está por concluir. Las Tierras Fértiles preparan a sus mejores hijos para enfrentarla. Mientras tanto, en las Tierras Antiguas la resistencia se organiza evitando los zarpazos de Misáianes, quien todo lo ve desde la impiadosa quietud de su monte.",
-        img: tapa5,
+        year: 2003,
+        titulo: "Diciembre Súper Álbum",
+        editorial: "Alfaguara Penguin Libros",
+        resenia: "En el Súper Álbum de diciembre saldrá el último número de la historieta “El viajante”: un hombre que va de pueblo en pueblos tras el rastro del parque de diversiones “Budapest” y de su amada Natalia.El guionista y el dibujante trabajan para darle un final a la historia de Santiago. Los relatos de esta novela pertenecen a dos mundos: el de la ficción y el de la realidad. Y sus protagonistas nos transmiten sus experiencias en una trama llena de emoción y de suspenso.",
+        img: tapa3,
         page: 1
     },
     {
