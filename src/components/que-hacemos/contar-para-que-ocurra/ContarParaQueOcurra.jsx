@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleRight, faAngleDoubleLeft } from '@fortawesome/free-solid-svg-icons';
@@ -55,6 +55,10 @@ function ContarParaQueOcurra({ activado }) {
         setViewGallery(true);
         setIdGallery(edicion)
     }
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+      }, [])
 
     return (
 

@@ -35,7 +35,7 @@ function Content() {
 
                     Como haría Liliana, <span className='color-letter'>abrimos nuestra Fundación</span> como una casa, o como se puede abrir un corazón. <br />
 
-                    <Link className="custom-btn btn-3" to='/liliana-bodoc/quienes-somos'><span>Conocenos</span></Link>
+                    <Link className="custom-btn btn-3" to='/quienes-somos'><span>Conocenos</span></Link>
                 </div>
             </div>
 

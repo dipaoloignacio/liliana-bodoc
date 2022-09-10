@@ -33,7 +33,6 @@
         .gallery-item {
             flex: 1 0 24rem;
             margin: 1rem;
-            max-height: 400px;
             overflow: hidden;
 
             .gallery-image {
@@ -79,9 +78,5 @@
                 }
             }
         }
-
-
-
     }
-
 }

@@ -12,6 +12,7 @@ import foto2 from "../../../images/img-body/21-de-julio/foto2.jpg";
 import foto13 from "../../../images/img-body/21-de-julio/image6.jpg";
 
 import { useState } from 'react';
+import { useEffect } from 'react';
 
 function JulioActividad({ activado }) {
     const [viewGallery, setViewGallery] = useState(false);
@@ -27,6 +28,10 @@ function JulioActividad({ activado }) {
         setIdGallery(id)
     }
 
+    useEffect(() => {
+      window.scrollTo(0,0);
+    }, [])
+    
     return (
         <div className='content-julio-act'>
 

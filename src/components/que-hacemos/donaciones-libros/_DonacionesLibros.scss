@@ -1,0 +1,42 @@
+.container-donaciones {
+    padding-bottom: 40px;
+    .content-title {
+        @include titles-sections(#222)
+    }
+
+    p {
+        width: 50%;
+        margin: auto;
+        font-size: 1.2rem;
+    }
+
+    .img-donacion {
+        width: 40%;
+        display: block;
+        margin: 40px auto;
+    }
+
+    .link-gallery {
+        display: block;
+        margin: auto;
+        text-align: center;
+        border: none;
+        background: none;
+        height: 45px;
+        font-size: 1.2rem;
+        color: $color_prime;
+    }
+}
+
+@include breakpoint(small) {
+    .container-donaciones {
+        p {
+            width: 90%;
+            font-size: 1rem;
+        }
+
+        .img-donacion {
+            width: 70%;
+        }
+    }
+}

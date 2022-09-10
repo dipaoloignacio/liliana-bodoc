@@ -73,6 +73,7 @@ function MenuCabecera() {
                                 <li><NavLink className="dropdown-item" to="/que-hacemos/mujeres-de-los-confines">MUJERES DE LOS CONFINES</NavLink></li>
                                 <li><NavLink className="dropdown-item" to="/que-hacemos/julio-actividad">21 DE JULIO</NavLink></li>
                                 <li><NavLink className="dropdown-item" to="/que-hacemos/contar-para-que-ocurra">CONTAR PARA QUE OCURRA</NavLink></li>
+                                <li><NavLink className="dropdown-item" to="/que-hacemos/donaciones">DONACIONES DE LA FUNDACION</NavLink></li>
                                 <li><hr className="dropdown-divider"></hr></li>
                             </ul>
                         </li>

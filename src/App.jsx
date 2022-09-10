@@ -12,6 +12,7 @@ import QueHacemos from './components/que-hacemos/QueHacemos';
 import MujeresConfines from './components/que-hacemos/mujeres-de-los-confines/MujeresConfines';
 import JulioActividad from './components/que-hacemos/21-de-julio/JulioActividad';
 import ContarParaQueOcurra from './components/que-hacemos/contar-para-que-ocurra/ContarParaQueOcurra';
+import DonacionesLibros from './components/que-hacemos/donaciones-libros/DonacionesLibros';
 import Footer from './components/footer/Footer';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Scroll from './components/animations/scroll/Scroll';
@@ -31,6 +32,7 @@ function App() {
         <Route path="/que-hacemos/mujeres-de-los-confines" element={<MujeresConfines />} />
         <Route path="/que-hacemos/julio-actividad" element={<JulioActividad />} />
         <Route path="/que-hacemos/contar-para-que-ocurra" element={<ContarParaQueOcurra />} />
+        <Route path="/que-hacemos/donaciones" element={<DonacionesLibros />} />
         <Route path="*" element={<h1>Nada por aca</h1>} />
       </Routes>
       <Footer />
