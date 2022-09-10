@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/liliana-bodoc/static/css/main.41bef760.css",
-    "main.js": "/liliana-bodoc/static/js/main.417a2690.js",
+    "main.css": "/liliana-bodoc/static/css/main.2b37bfbb.css",
+    "main.js": "/liliana-bodoc/static/js/main.045dc749.js",
     "static/media/elisa.jpg": "/liliana-bodoc/static/media/elisa.9531690d510b61cb6396.jpg",
     "static/media/lili-bg-null.png": "/liliana-bodoc/static/media/lili-bg-null.1d601046ca5f7c9b7db7.png",
     "static/media/logo-sinFondo1.png": "/liliana-bodoc/static/media/logo-sinFondo1.3f348fab6945e15e3e42.png",
@@ -12,6 +12,7 @@
     "static/media/formas-de-ver.jpg": "/liliana-bodoc/static/media/formas-de-ver.c6de3a355fa72ab5a9ae.jpg",
     "static/media/Liliana-Bodoc.jpg": "/liliana-bodoc/static/media/Liliana-Bodoc.67245f30216348dcdc4f.jpg",
     "static/media/la-mejor-luna.jpg": "/liliana-bodoc/static/media/la-mejor-luna.3ee0c17584fe58575b2d.jpg",
+    "static/media/foto5.jpg": "/liliana-bodoc/static/media/foto5.dbe07c92c83c15dbea39.jpg",
     "static/media/fondo4.jpg": "/liliana-bodoc/static/media/fondo4.667928af5290587b6600.jpg",
     "static/media/foto8.jpg": "/liliana-bodoc/static/media/foto8.572316416da3edd6ff54.jpg",
     "static/media/foto10.jpg": "/liliana-bodoc/static/media/foto10.979b6e7fd63b24a33322.jpg",
@@ -23,14 +24,12 @@
     "static/media/21-julio.jpg": "/liliana-bodoc/static/media/21-julio.a4160b22ff6a15115df8.jpg",
     "static/media/el-rastro-de-la-canela.jpg": "/liliana-bodoc/static/media/el-rastro-de-la-canela.de3247b790b58a50b1e4.jpg",
     "static/media/foto7.jpg": "/liliana-bodoc/static/media/foto7.b65e8f445d60657e7136.jpg",
-    "static/media/libro.png": "/liliana-bodoc/static/media/libro.4e0f18d24c9192c0890d.png",
     "static/media/contar.jpg": "/liliana-bodoc/static/media/contar.9a805703acf205c6dd89.jpg",
     "static/media/foto9.jpg": "/liliana-bodoc/static/media/foto9.1ad7f6a26ed48e458f5c.jpg",
     "static/media/noticia-4.jpg": "/liliana-bodoc/static/media/noticia-4.597c731abf0c6fe4e986.jpg",
     "static/media/diciembre-super-album.png": "/liliana-bodoc/static/media/diciembre-super-album.a319a003fd810b294511.png",
     "static/media/foto2.jpg": "/liliana-bodoc/static/media/foto2.a45a3bce5e603364fb6a.jpg",
     "static/media/foto.jpg": "/liliana-bodoc/static/media/foto.3db27517279f480cb993.jpg",
-    "static/media/foto5.jpg": "/liliana-bodoc/static/media/foto5.dbe07c92c83c15dbea39.jpg",
     "static/media/celebramos.jpg": "/liliana-bodoc/static/media/celebramos.dbf81fda2cb1233ae743.jpg",
     "static/media/noticia-5.jpg": "/liliana-bodoc/static/media/noticia-5.d66cb94d7fb9ec1061b9.jpg",
     "static/media/foto1.jpg": "/liliana-bodoc/static/media/foto1.fe14f0c714f1ab4f9a16.jpg",
@@ -46,6 +45,7 @@
     "static/media/silfos.jpg": "/liliana-bodoc/static/media/silfos.76d3917899b30e63e24f.jpg",
     "static/media/un-mar-para-emilia.jpg": "/liliana-bodoc/static/media/un-mar-para-emilia.b3c800a2e0b45b21d7e2.jpg",
     "static/media/una-version-de-dios.jpg": "/liliana-bodoc/static/media/una-version-de-dios.eb589c8c308fe4dc6879.jpg",
+    "static/media/Contar-para-que-ocurra-6ta.jpg": "/liliana-bodoc/static/media/Contar-para-que-ocurra-6ta.a0dbfd4aab5461e93723.jpg",
     "static/media/image4.jpg": "/liliana-bodoc/static/media/image4.62330f0030136d7a9c9f.jpg",
     "static/media/image3.jpg": "/liliana-bodoc/static/media/image3.dec2506851252a70a67a.jpg",
     "static/media/mi-mama-me-ama.jpg": "/liliana-bodoc/static/media/mi-mama-me-ama.6930c4cd70c34f54b689.jpg",
@@ -78,7 +78,6 @@
     "static/media/foto15.jpg": "/liliana-bodoc/static/media/foto15.79d68ffdb31dc4a988ef.jpg",
     "static/media/el-arte-de-los-confines.jpg": "/liliana-bodoc/static/media/el-arte-de-los-confines.2a941e35f348092df5fe.jpg",
     "static/media/foto14.jpg": "/liliana-bodoc/static/media/foto14.f71579c299c7b4233e94.jpg",
-    "static/media/grupo-childrens.png": "/liliana-bodoc/static/media/grupo-childrens.d0f7227c99de45834019.png",
     "static/media/lili3.jpg": "/liliana-bodoc/static/media/lili3.ca1f14db0637949a341b.jpg",
     "static/media/los-dias-de-la-sombra.jpg": "/liliana-bodoc/static/media/los-dias-de-la-sombra.330218acae7746ca83b3.jpg",
     "static/media/libro-icon3.png": "/liliana-bodoc/static/media/libro-icon3.26823f74c4e30bcec068.png",
@@ -88,11 +87,11 @@
     "static/media/amigos-por-el-viento.jpg": "/liliana-bodoc/static/media/amigos-por-el-viento.9836d4f0bc8379677230.jpg",
     "static/media/diez-en-un-barco.jpg": "/liliana-bodoc/static/media/diez-en-un-barco.753d1190a2694438d047.jpg",
     "index.html": "/liliana-bodoc/index.html",
-    "main.41bef760.css.map": "/liliana-bodoc/static/css/main.41bef760.css.map",
-    "main.417a2690.js.map": "/liliana-bodoc/static/js/main.417a2690.js.map"
+    "main.2b37bfbb.css.map": "/liliana-bodoc/static/css/main.2b37bfbb.css.map",
+    "main.045dc749.js.map": "/liliana-bodoc/static/js/main.045dc749.js.map"
   },
   "entrypoints": [
-    "static/css/main.41bef760.css",
-    "static/js/main.417a2690.js"
+    "static/css/main.2b37bfbb.css",
+    "static/js/main.045dc749.js"
   ]
 }
