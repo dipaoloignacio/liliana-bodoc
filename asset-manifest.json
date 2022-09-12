@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/liliana-bodoc/static/css/main.85e6e826.css",
-    "main.js": "/liliana-bodoc/static/js/main.cd5976c5.js",
+    "main.css": "/liliana-bodoc/static/css/main.7a9d3c66.css",
+    "main.js": "/liliana-bodoc/static/js/main.b30eea04.js",
     "static/media/elisa.jpg": "/liliana-bodoc/static/media/elisa.9531690d510b61cb6396.jpg",
     "static/media/lili-bg-null.png": "/liliana-bodoc/static/media/lili-bg-null.1d601046ca5f7c9b7db7.png",
     "static/media/logo-sinFondo1.png": "/liliana-bodoc/static/media/logo-sinFondo1.3f348fab6945e15e3e42.png",
@@ -47,6 +47,7 @@
     "static/media/una-version-de-dios.jpg": "/liliana-bodoc/static/media/una-version-de-dios.eb589c8c308fe4dc6879.jpg",
     "static/media/Contar-para-que-ocurra-6ta.jpg": "/liliana-bodoc/static/media/Contar-para-que-ocurra-6ta.a0dbfd4aab5461e93723.jpg",
     "static/media/image4.jpg": "/liliana-bodoc/static/media/image4.62330f0030136d7a9c9f.jpg",
+    "static/media/bg_bggenerator4.jpg": "/liliana-bodoc/static/media/bg_bggenerator4.c9c6b15c3ea720133a51.jpg",
     "static/media/image3.jpg": "/liliana-bodoc/static/media/image3.dec2506851252a70a67a.jpg",
     "static/media/mi-mama-me-ama.jpg": "/liliana-bodoc/static/media/mi-mama-me-ama.6930c4cd70c34f54b689.jpg",
     "static/media/image8.jpg": "/liliana-bodoc/static/media/image8.06e490e4e569c7ee3b6e.jpg",
@@ -87,11 +88,11 @@
     "static/media/amigos-por-el-viento.jpg": "/liliana-bodoc/static/media/amigos-por-el-viento.9836d4f0bc8379677230.jpg",
     "static/media/diez-en-un-barco.jpg": "/liliana-bodoc/static/media/diez-en-un-barco.753d1190a2694438d047.jpg",
     "index.html": "/liliana-bodoc/index.html",
-    "main.85e6e826.css.map": "/liliana-bodoc/static/css/main.85e6e826.css.map",
-    "main.cd5976c5.js.map": "/liliana-bodoc/static/js/main.cd5976c5.js.map"
+    "main.7a9d3c66.css.map": "/liliana-bodoc/static/css/main.7a9d3c66.css.map",
+    "main.b30eea04.js.map": "/liliana-bodoc/static/js/main.b30eea04.js.map"
   },
   "entrypoints": [
-    "static/css/main.85e6e826.css",
-    "static/js/main.cd5976c5.js"
+    "static/css/main.7a9d3c66.css",
+    "static/js/main.b30eea04.js"
   ]
 }
