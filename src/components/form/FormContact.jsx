@@ -56,7 +56,7 @@ function FormMessage() {
                                     <Field
                                         type="text"
                                         name="from_name"
-                                        placeholder='nombre...'
+                                        placeholder='nombre . . .'
                                     />
                                     <ErrorMessage name='from_name' component={() => (
                                         <div style={{ color: '#03e9f4' }}>{errors.from_name}</div>
@@ -66,7 +66,7 @@ function FormMessage() {
                                     <Field
                                         type="email"
                                         name="email"
-                                        placeholder='example@example.com'
+                                        placeholder='tu email . . .'
                                     />
                                     <ErrorMessage name='email' component={() => (
                                         <div style={{ color: '#03e9f4' }}>{errors.email}</div>
@@ -77,7 +77,7 @@ function FormMessage() {
                                         type="text"
                                         as="textarea"
                                         name="message"
-                                        placeholder='mensaje'
+                                        placeholder='mensaje . . .'
                                         className='text-area'
                                     />
                                     <ErrorMessage name='message' component={() => (

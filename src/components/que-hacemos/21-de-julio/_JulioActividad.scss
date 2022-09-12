@@ -51,6 +51,7 @@
     .content-title {
         @include titles-sections(rgb(238, 238, 238));
         padding-top: 20px;
+        text-shadow: 2px 2px #111
     }
 
     .celebrando {
@@ -67,6 +68,7 @@
 
             a {
                 max-width: 700px;
+
                 img {
                     display: block;
                     max-width: 700px;
@@ -75,70 +77,9 @@
             }
         }
 
-        .celebramos-2021 {
-            .fotos-2021 {
-                img {
-                    display: block;
-                    margin: auto;
-                    max-width: 700px;
-
-                }
-
-                .link-gallery {
-                    display: block;
-                    margin: auto;
-                    text-align: center;
-                    border: none;
-                    background: none;
-                    height: 45px;
-                    font-size: 1.2rem;
-                    color: aqua;
-                }
-            }
-        }
-
-        .celebramos-2022 {
-            .fotos-2022 {
-                img {
-                    display: block;
-                    margin: auto;
-                    max-width: 500px;
-                }
-
-                .link-gallery {
-                    display: block;
-                    margin: auto;
-                    text-align: center;
-                    border: none;
-                    background: none;
-                    height: 45px;
-                    font-size: 1.2rem;
-                    color: aqua;
-                }
-            }
-        }
-    }
-
-    .video {
-        max-width: 70%;
-        margin: 50px auto;
-        padding-bottom: 80px;
-        border-bottom: solid 1px #eee;
-
-        iframe {
-            display: block;
-            margin: auto;
-            width: 100%;
-            height: 70vh;
-        }
-
-        @media screen and (max-width: 600px) {
-            & {
-                max-width: 95%;
-
-                iframe {
-                    height: 300px;
-                }
+        .blog-card {
+            @media screen {
+                max-width: 1000px !important;
             }
         }
     }

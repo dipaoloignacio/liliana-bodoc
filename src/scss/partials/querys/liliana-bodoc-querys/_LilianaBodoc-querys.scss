@@ -16,10 +16,18 @@
             }
 
             .info-libro {
+                ::-webkit-scrollbar {
+                    width: 6px;
+                }
+                
+                ::-webkit-scrollbar-thumb {
+                    background-color: #999;
+                    border-radius: 10px;
+                }
+                
                 .resenia-libro {
-                    max-height: 150px;
-                    text-overflow: ellipsis;
-                    overflow: hidden;
+                    max-height: 200px;
+                    overflow-y: scroll;
                 }
             }
         }

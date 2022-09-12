@@ -4,6 +4,7 @@ import { faClose } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
 
 function GalleryPhotos({ dataImg, closeGallery, viewGallery }) {
+
     return (
         <>
             {viewGallery &&
@@ -32,13 +33,12 @@ function GalleryPhotos({ dataImg, closeGallery, viewGallery }) {
                     <motion.button
                         whileHover={{ scale: 1.1 }}
                         transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                        className='btn-close-gallery text-light m-3'
+                        className='btn-close-gallery text-light d-block m-auto'
                         onClick={closeGallery}
                     >
                         Cerrar
                     </motion.button>
                 </div>
-
             }
         </>
 

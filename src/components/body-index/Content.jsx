@@ -2,8 +2,9 @@ import React from 'react'
 import Banner from '../banner/Banner'
 import Scroll from '../animations/scroll/Scroll';
 import Videos from '../liliana-bodoc/videos/Videos';
+import cards from '../../Data/Cards/dataCards';
 import { motion } from 'framer-motion';
-import CardContainer from './card-actividades/card-container/CardContainer';
+import CardContainer from '../card-container/CardContainer';
 import { Link } from 'react-router-dom'
 
 import fotoIcon from '../../images/img-body/libro-icon.png'
@@ -51,7 +52,7 @@ function Content() {
                         <span className='color-letter'>Nuestr</span><span className='span-title'><span className='color-letter'>as</span> Acti</span>vidades
                     </h4>
                 </div>
-                <CardContainer />
+                <CardContainer cardsData={cards} from={'index'} />
             </div>
             <Videos />
         </div>

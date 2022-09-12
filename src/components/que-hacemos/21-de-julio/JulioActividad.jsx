@@ -1,37 +1,43 @@
 import React from 'react'
-import { motion } from 'framer-motion';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDoubleRight, faAngleDoubleLeft } from '@fortawesome/free-solid-svg-icons';
+
+import CardContainer from '../../card-container/CardContainer';
+
 import imgJulio21 from '../../../Data/imgSrcData/imgJulio21';
 import imgJulio22 from '../../../Data/imgSrcData/imgJulio22';
-import GalleryPhotos from '../../gallery-photos/GalleryPhotos';
 
 import foto from "../../../images/biografia/celebramos.jpg";
-import foto2 from "../../../images/img-body/21-de-julio/foto2.jpg";
-
+import foto2 from "../../../images/img-body/21-de-julio/foto1.jpg";
 import foto13 from "../../../images/img-body/21-de-julio/image6.jpg";
 
-import { useState } from 'react';
 import { useEffect } from 'react';
 
+let cardData = [
+    {
+        id: 1,
+        img: foto13,
+        alt: 'Dia provincial del libro infantil y juvenil 2022',
+        video: 'https://www.youtube.com/embed/dzjqtUtLAjc',
+        year: 2022,
+        imgData: imgJulio22,
+        title: 'Dia provincial del libro infantil y juvenil 2022',
+    },
+    {
+        id: 2,
+        img: foto2,
+        alt: 'Dia provincial del libro infantil y juvenil 2021',
+        video: 'https://www.youtube.com/embed/NeUNa6EfYaM',
+        year: 2021,
+        imgData: imgJulio21,
+        title: 'Dia provincial del libro infantil y juvenil 2021',
+    },
+]
+
 function JulioActividad({ activado }) {
-    const [viewGallery, setViewGallery] = useState(false);
-    const [idGallery, setIdGallery] = useState(0);
-
-
-    function closeGallery() {
-        setViewGallery(false);
-    }
-
-    function openGallery(id) {
-        setViewGallery(true);
-        setIdGallery(id)
-    }
 
     useEffect(() => {
-      window.scrollTo(0,0);
+        window.scrollTo(0, 0);
     }, [])
-    
+
     return (
         <div className='content-julio-act'>
 
@@ -44,51 +50,15 @@ function JulioActividad({ activado }) {
             </div>
 
             <div className="celebrando">
-            <div className="celebramos-2022">
-                    <h1 className='fw-bolder text-center p-5'>Dia provincial del libro infantil y juvenil 2022</h1>
-                    <div className='fotos-2022'>
-                        <img src={foto13} alt="" className='foto1-2022 img-fluid' />
-                        <motion.button
-                            whileHover={{ scale: 1.3 }}
-                            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                            onClick={() => openGallery(2022)}
-                            className='link-gallery'
-                        >
-                            <FontAwesomeIcon icon={faAngleDoubleRight} /> Ver galeria de fotos <FontAwesomeIcon icon={faAngleDoubleLeft} /></motion.button>
-                        {idGallery === 2022 ?
-                            <GalleryPhotos dataImg={imgJulio22} closeGallery={closeGallery} viewGallery={viewGallery} />
-                            : ''
-                        }
-                    </div>
-                </div>
 
-                <div className='video'>
-                    <iframe src="https://www.youtube.com/embed/dzjqtUtLAjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+                {
+                    cardData.map(card => {
+                        return (
+                            <CardContainer from={'julioActividad'} key={card.id} cardsData={card} />
+                        )
+                    })
+                }
 
-                <div className="celebramos-2021">
-                    <h1 className='fw-bolder text-center p-5'>Dia provincial del libro infantil y juvenil 2021</h1>
-                    <div className='fotos-2021'>
-                        <img src={foto2} alt="" className='foto2-2021 img-fluid' />
-                        <motion.button
-                            whileHover={{ scale: 1.3 }}
-                            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                            onClick={() => openGallery(2021)}
-                            className='link-gallery'
-                        >
-                            <FontAwesomeIcon icon={faAngleDoubleRight} /> Click galeria de fotos <FontAwesomeIcon icon={faAngleDoubleLeft} /></motion.button>
-                        {idGallery === 2021 ?
-                            <GalleryPhotos dataImg={imgJulio21} closeGallery={closeGallery} viewGallery={viewGallery} />
-                            : ''
-                        }
-                    </div>
-                </div>
-
-                <div className='video'>
-                    <iframe src="https://www.youtube.com/embed/NeUNa6EfYaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-
-                
                 <div className="celebramos-2020">
                     <h4 className='text-center'>Dia provincial del libro infantil y juvenil 2020</h4>
                     <p className='container'>

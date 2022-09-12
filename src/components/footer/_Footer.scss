@@ -140,6 +140,12 @@
     }
 }
 
+.createBy{
+    background-color: #222;
+    color: rgb(208, 208, 208);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
 @include breakpoint(small) {
     .footer {
         flex-direction: column;

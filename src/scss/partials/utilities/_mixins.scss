@@ -104,7 +104,7 @@
         }
     }
 
-    @else if $point ==mediun {
+    @else if $point ==medium {
         @media screen and (max-width: 1024px) {
             @content;
         }

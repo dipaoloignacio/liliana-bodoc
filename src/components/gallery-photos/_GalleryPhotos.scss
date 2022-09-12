@@ -9,7 +9,6 @@
 
     .btn-close-gallery {
         width: 100px;
-        height: 50px;
         font-size: 40px;
         background: none;
         color: white;
@@ -31,16 +30,22 @@
         padding: 40px;
 
         .gallery-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             flex: 1 0 24rem;
             margin: 1rem;
             overflow: hidden;
 
             .gallery-image {
+                align-self: center;
+                justify-self: center;
                 display: block;
                 transition: transform 400ms ease-out;
 
                 img {
                     max-width: 450px;
+                    max-height: 400px;
                 }
 
                 &:hover {
@@ -54,12 +59,34 @@
     @supports (display: grid) {
         .gallery {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(600px, 15rem));
+            grid-template-columns: 1fr 1fr 1fr;
         }
 
         .gallery,
         .gallery-item {
             margin-left: 0;
+        }
+    }
+
+    @include breakpoint(medium) {
+        .gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .gallery {
+            .gallery-item {
+                display: flex;
+
+                .gallery-image {
+                    align-self: center;
+                    justify-self: center;
+
+                    img {
+                        max-width: 350px;
+                    }
+                }
+            }
         }
     }
 

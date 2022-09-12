@@ -7,45 +7,49 @@ import FormContact from '../form/FormContact'
 
 function Footer() {
   return (
-    <div className='footer'>
-      <div>
-        <img src={logo} alt="" className='img-fluid d-block m-auto mb-5' />
-        <p>-Fundacion Liliana Bodoc.</p>
-        <div className='redes-section'>
-          <ul className="redes">
-            <li className="icon facebook">
-              <span className="nombre-red">Facebook</span>
-              <a href="https://www.facebook.com/El-alma-en-un-hilo-Marionetas-y-Miniaturas--804228576283329" target="_blank">
-                <span>
-                  <FontAwesomeIcon icon={faFacebookF} />
-                </span>
-              </a>
-            </li>
-            <li className="icon instagram">
-              <span className="nombre-red">Instagram</span>
-              <a href="https://www.instagram.com/elalmaenunhilo.marionetas/?hl=es" target="_blank"><span><FontAwesomeIcon icon={faInstagram} /></span></a>
+    <div>
 
-            </li>
-            <li className="icon youtube">
-              <span className="nombre-red">Youtube</span>
-              <a href="https://www.youtube.com/channel/UC1BkfXOrAE1IfSgi7FUKC3A" target="_blank"><span><FontAwesomeIcon icon={faYoutube} /></span></a>
+      <div className='footer'>
+        <div>
+          <img src={logo} alt="" className='img-fluid d-block m-auto mb-5' />
+          <p>-Fundacion Liliana Bodoc.</p>
+          <div className='redes-section'>
+            <ul className="redes">
+              <li className="icon facebook">
+                <span className="nombre-red">Facebook</span>
+                <a href="https://www.facebook.com/El-alma-en-un-hilo-Marionetas-y-Miniaturas--804228576283329" target="_blank">
+                  <span>
+                    <FontAwesomeIcon icon={faFacebookF} />
+                  </span>
+                </a>
+              </li>
+              <li className="icon instagram">
+                <span className="nombre-red">Instagram</span>
+                <a href="https://www.instagram.com/elalmaenunhilo.marionetas/?hl=es" target="_blank"><span><FontAwesomeIcon icon={faInstagram} /></span></a>
 
-            </li>
-            <li className="icon envelope">
-              <span className="nombre-red">Mensaje</span>
-              <a href="pages/contact.html" target="_blank"><span><FontAwesomeIcon icon={faWhatsapp} /></span></a>
-            </li>
-          </ul>
-          <div>
-            <ul className='contac-list'>
-              <li> <FontAwesomeIcon icon={faEnvelope} /> mail: fundacionlilianabodoc@gmail.com</li>
-              <li> <FontAwesomeIcon icon={faPhone} /> Tel: +5492615100720</li>
-              <li> <FontAwesomeIcon icon={faLocationDot} /> Ubicacion: Mendoza-Argentina</li>
+              </li>
+              <li className="icon youtube">
+                <span className="nombre-red">Youtube</span>
+                <a href="https://www.youtube.com/channel/UC1BkfXOrAE1IfSgi7FUKC3A" target="_blank"><span><FontAwesomeIcon icon={faYoutube} /></span></a>
+
+              </li>
+              <li className="icon envelope">
+                <span className="nombre-red">Mensaje</span>
+                <a href="pages/contact.html" target="_blank"><span><FontAwesomeIcon icon={faWhatsapp} /></span></a>
+              </li>
             </ul>
+            <div>
+              <ul className='contac-list'>
+                <li> <FontAwesomeIcon icon={faEnvelope} /> mail: fundacionlilianabodoc@gmail.com</li>
+                <li> <FontAwesomeIcon icon={faPhone} /> Tel: +5492615100720</li>
+                <li> <FontAwesomeIcon icon={faLocationDot} /> Ubicacion: Mendoza-Argentina</li>
+              </ul>
+            </div>
           </div>
         </div>
+        <FormContact />
       </div>
-      <FormContact />
+      <div className='createBy'>Producido por ID Studio</div>
     </div>
   )
 }
