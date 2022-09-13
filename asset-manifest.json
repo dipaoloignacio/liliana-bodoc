@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/liliana-bodoc/static/css/main.1e99af03.css",
+    "main.css": "/liliana-bodoc/static/css/main.29ad7703.css",
     "main.js": "/liliana-bodoc/static/js/main.ff1e3afb.js",
     "static/media/elisa.jpg": "/liliana-bodoc/static/media/elisa.9531690d510b61cb6396.jpg",
     "static/media/lili-bg-null.png": "/liliana-bodoc/static/media/lili-bg-null.1d601046ca5f7c9b7db7.png",
@@ -88,11 +88,11 @@
     "static/media/amigos-por-el-viento.jpg": "/liliana-bodoc/static/media/amigos-por-el-viento.9836d4f0bc8379677230.jpg",
     "static/media/diez-en-un-barco.jpg": "/liliana-bodoc/static/media/diez-en-un-barco.753d1190a2694438d047.jpg",
     "index.html": "/liliana-bodoc/index.html",
-    "main.1e99af03.css.map": "/liliana-bodoc/static/css/main.1e99af03.css.map",
+    "main.29ad7703.css.map": "/liliana-bodoc/static/css/main.29ad7703.css.map",
     "main.ff1e3afb.js.map": "/liliana-bodoc/static/js/main.ff1e3afb.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e99af03.css",
+    "static/css/main.29ad7703.css",
     "static/js/main.ff1e3afb.js"
   ]
 }
