@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/liliana-bodoc/static/css/main.7a9d3c66.css",
-    "main.js": "/liliana-bodoc/static/js/main.224c1ca8.js",
+    "main.css": "/liliana-bodoc/static/css/main.1e99af03.css",
+    "main.js": "/liliana-bodoc/static/js/main.ff1e3afb.js",
     "static/media/elisa.jpg": "/liliana-bodoc/static/media/elisa.9531690d510b61cb6396.jpg",
     "static/media/lili-bg-null.png": "/liliana-bodoc/static/media/lili-bg-null.1d601046ca5f7c9b7db7.png",
     "static/media/logo-sinFondo1.png": "/liliana-bodoc/static/media/logo-sinFondo1.3f348fab6945e15e3e42.png",
@@ -88,11 +88,11 @@
     "static/media/amigos-por-el-viento.jpg": "/liliana-bodoc/static/media/amigos-por-el-viento.9836d4f0bc8379677230.jpg",
     "static/media/diez-en-un-barco.jpg": "/liliana-bodoc/static/media/diez-en-un-barco.753d1190a2694438d047.jpg",
     "index.html": "/liliana-bodoc/index.html",
-    "main.7a9d3c66.css.map": "/liliana-bodoc/static/css/main.7a9d3c66.css.map",
-    "main.224c1ca8.js.map": "/liliana-bodoc/static/js/main.224c1ca8.js.map"
+    "main.1e99af03.css.map": "/liliana-bodoc/static/css/main.1e99af03.css.map",
+    "main.ff1e3afb.js.map": "/liliana-bodoc/static/js/main.ff1e3afb.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a9d3c66.css",
-    "static/js/main.224c1ca8.js"
+    "static/css/main.1e99af03.css",
+    "static/js/main.ff1e3afb.js"
   ]
 }
