@@ -46,7 +46,7 @@ function JulioActividad({ activado }) {
             </section>
 
             <div className="content-title">
-                <h3 className='tittle-section'>Celebramos a Liliana Bodoc</h3>
+                <h3 className='tittle-section'>Celebramos a Liliana Bodoc!</h3>
             </div>
 
             <div className="celebrando">

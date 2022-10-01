@@ -8,6 +8,8 @@ import foto5 from '../../../images/biografia/noticia-5.jpg'
 
 function DiaDeJulio() {
 
+
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [])

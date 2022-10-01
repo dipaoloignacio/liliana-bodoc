@@ -34,7 +34,7 @@ function Content() {
 
                     Seguramente lo mismo que soñaron, imaginaron todos los que eligieron su nombre para una biblioteca escolar, una biblioteca pública, una escuela, una librería, una plaza. <br />
 
-                    Como haría Liliana, <span className='color-letter'>abrimos nuestra Fundación</span> como una casa, o como se puede abrir un corazón. <br />
+                    Como haría Liliana,abrimos nuestra Fundación como una casa, o como se puede abrir un corazón. <br />
 
                     <Link className="custom-btn btn-3" to='/quienes-somos'><span>Conocenos</span></Link>
                 </div>

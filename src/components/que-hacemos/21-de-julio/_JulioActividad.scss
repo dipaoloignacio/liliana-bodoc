@@ -1,6 +1,6 @@
 .content-julio-act {
-    background-color: $color-primary;
-    overflow: hidden;
+    background: url('../../../images/img-body/bg_bggenerator4.jpg');
+    background-size: contain;
 
     .fondo-curvo-activado {
         position: relative;
@@ -55,7 +55,7 @@
     }
 
     .celebrando {
-        padding-bottom: 50px;
+        padding: 0 15px 50px 15px;
         color: #eee;
 
         .celebramos-2020 {
@@ -85,6 +85,11 @@
     }
 
     @include breakpoint(small) {
+        .content-title {
+            .tittle-section{
+                font-size: 1.7rem;
+            }
+        }
         .celebrando {
             .celebramos-2020 {
                 a {

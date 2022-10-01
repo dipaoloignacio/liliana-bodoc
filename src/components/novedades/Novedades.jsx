@@ -1,10 +1,15 @@
 import React from 'react'
+import { useEffect } from 'react'
 
 function Novedades() {
+    useEffect(() => {
+      window.scrollTo(0,0);
+    }, [])
+    
     return (
         <div className='content-novedades'>
             <h1 className='pt-5'>Proximamente</h1>
-            <p>Estamos trabajndo en esta sección</p>
+            <p>Estamos trabajando en esta sección</p>
             <div class="book">
                 <div class="gap"></div>
                 <div class="pages">

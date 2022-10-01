@@ -1,12 +1,14 @@
-.content-tittle{
+.content-tittle {
     @include titles-sections($colo-title-grey);
 }
+
 .content-text-21-julio {
     width: 60%;
     font-family: 'Libre Baskerville', serif;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
+
     .title-21-julio {
         text-align: center;
     }
@@ -47,5 +49,11 @@
                 box-shadow: 10px 5px #999;
             }
         }
+    }
+}
+
+@include breakpoint(small) {
+    .content-text-21-julio {
+        width: 90%
     }
 }
