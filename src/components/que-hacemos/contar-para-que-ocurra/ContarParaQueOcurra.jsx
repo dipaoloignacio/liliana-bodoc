@@ -81,9 +81,9 @@ function ContarParaQueOcurra({ activado }) {
             {
                 ediciones.slice(0).reverse().map(edicion => {
                     return (
-                        <div className='mt-5 '>
+                        <div key={edicion.id} className='mt-5 '>
                             <h3 className='title-edition mb-4'>{edicion.edicion} edición</h3>
-                            <img class="img-ed" src={edicion.img} alt=""></img>
+                            <img className="img-ed" src={edicion.img} alt=""></img>
                             <motion.button
                                 whileHover={{ scale: 1.3 }}
                                 transition={{ type: "spring", stiffness: 400, damping: 10 }}

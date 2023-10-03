@@ -10,24 +10,24 @@ function Novedades() {
         <div className='content-novedades'>
             <h1 className='pt-5'>Proximamente</h1>
             <p>Estamos trabajando en esta sección</p>
-            <div class="book">
-                <div class="gap"></div>
-                <div class="pages">
-                    <div class="page"></div>
-                    <div class="page"></div>
-                    <div class="page"></div>
-                    <div class="page"></div>
-                    <div class="page"></div>
-                    <div class="page"></div>
+            <div className="book">
+                <div className="gap"></div>
+                <div className="pages">
+                    <div className="page"></div>
+                    <div className="page"></div>
+                    <div className="page"></div>
+                    <div className="page"></div>
+                    <div className="page"></div>
+                    <div className="page"></div>
                 </div>
-                <div class="flips">
-                    <div class="flip flip1">
-                        <div class="flip flip2">
-                            <div class="flip flip3">
-                                <div class="flip flip4">
-                                    <div class="flip flip5">
-                                        <div class="flip flip6">
-                                            <div class="flip flip7"></div>
+                <div className="flips">
+                    <div className="flip flip1">
+                        <div className="flip flip2">
+                            <div className="flip flip3">
+                                <div className="flip flip4">
+                                    <div className="flip flip5">
+                                        <div className="flip flip6">
+                                            <div className="flip flip7"></div>
                                         </div>
                                     </div>
                                 </div>

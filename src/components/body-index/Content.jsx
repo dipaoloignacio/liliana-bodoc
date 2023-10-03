@@ -21,7 +21,7 @@ function Content() {
             <div className='fixed-top'><Scroll /></div>
             <Banner></Banner>
             <div className="quienes-somos">
-                <iframe src="https://www.youtube.com/embed/hGsOhzs4Dvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/hGsOhzs4Dvc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
                 <div className='manifiesto-index container'>
                     <div className="content-title">
@@ -41,7 +41,7 @@ function Content() {
             </div>
 
             <div className='division-banner'>
-                <h2 class="background double">
+                <h2 className="background double">
                     <span ><img src={fotoIcon} alt="" /></span>
                 </h2>
             </div>

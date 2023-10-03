@@ -60,7 +60,7 @@ function ContenedorListaDeLibros({ isInLiliana }) {
                     <li className="page-item">
                         <button onClick={() => setPagination(8)} className="page-link text-dark">8</button>
                     </li>
-                    <li class={pagination !== 8 ? 'page-item' : 'd-none'}>
+                    <li className={pagination !== 8 ? 'page-item' : 'd-none'}>
                         <button onClick={() => changePages(1)} className="page-link text-dark">Siguiente</button>
                     </li>
                 </ul>

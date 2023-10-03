@@ -49,7 +49,7 @@ function MenuCabecera() {
                                 aria-current="page"
                                 data-toggle="collapse"
                                 data-target="#navbarCollapse"
-                                activeClassName="active"
+                                activeclassname="active"
                                 to="/">INICIO</NavLink>
                         </li>
                         <li className="nav-item">
@@ -59,7 +59,7 @@ function MenuCabecera() {
                                 aria-current="page"
                                 data-toggle="collapse"
                                 data-target="#navbarCollapse"
-                                activeClassName="active"
+                                activeclassname="active"
                                 to="/quienes-somos">QUIENES SOMOS</NavLink>
                         </li>
                         <li className="nav-item dropdown">
@@ -75,9 +75,9 @@ function MenuCabecera() {
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
-                            <NavLink className="nav-link dropdown-toggle" to="/que-hacemos" >
+                            <button className="nav-link dropdown-toggle" >
                                 QUE HACEMOS
-                            </NavLink>
+                            </button>
                             <ul className="dropdown-menu">
                                 <li><NavLink onClick={() => setViewMenu(false)} className="dropdown-item" to="/que-hacemos/mujeres-de-los-confines">MUJERES DE LOS CONFINES</NavLink></li>
                                 <li><NavLink onClick={() => setViewMenu(false)} className="dropdown-item" to="/que-hacemos/julio-actividad">21 DE JULIO</NavLink></li>

@@ -14,9 +14,8 @@ function CardContainer({ cardsData, from }) {
     function closeGallery() {
         setViewGallery(false);
     }
-
     return (
-        <div className='content-cards' >
+        <div className='content-cards'>
             <div>
                 {
                     <CardsAnimation>
@@ -25,14 +24,14 @@ function CardContainer({ cardsData, from }) {
                             from === 'index' ?
                                 cardsData.map(cardData => {
                                     return (
-                                        <div class="blog-card" >
-                                            <div class="meta">
-                                                <div class="photo" style={{ backgroundImage: `url(${cardData.img})` }}></div>
+                                        <div key={cardData.id} className="blog-card" >
+                                            <div className="meta">
+                                                <div className="photo" style={{ backgroundImage: `url(${cardData.img})` }}></div>
                                             </div>
-                                            <div class="description">
+                                            <div className="description">
                                                 <h1>{cardData.title}</h1>
                                                 <p> {cardData.description}</p>
-                                                <p class="read-more">
+                                                <p className="read-more">
                                                     <Link className="custom-btn btn-3" to={cardData.link}><span>Ver mas</span></Link>
                                                 </p>
                                             </div>
@@ -46,21 +45,30 @@ function CardContainer({ cardsData, from }) {
                             from === 'julioActividad' ?
                                 <div>
                                     <h3 className='title-card'>{cardsData.title}</h3>
-                                    <div class="blog-card">
-                                        <div class="meta">
-                                            <div class="photo" style={{ backgroundImage: `url(${cardsData.img})` }}></div>
+                                    <div className="blog-card">
+                                        <div className="meta">
+                                            <div className="photo" style={{ backgroundImage: `url(${cardsData.img})` }}></div>
                                         </div>
-                                        <div class="description">
+                                        <div className="description">
                                             <div className='video'>
-                                                <iframe src={cardsData.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                <iframe src={cardsData.video} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                             </div>
-                                            <motion.button
-                                                whileHover={{ scale: 1.3 }}
-                                                transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                                                onClick={() => setViewGallery(true)}
-                                                className='link-gallery'
-                                            >
-                                                <FontAwesomeIcon icon={faAngleDoubleRight} /> Fotos del evento <FontAwesomeIcon icon={faAngleDoubleLeft} /></motion.button>
+                                            {
+                                                cardsData.imgData !== 0 ?
+                                                    <motion.button
+                                                        whileHover={{ scale: 1.1 }}
+                                                        transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                                                        onClick={() => setViewGallery(true)}
+                                                        className='link-gallery'
+                                                    >
+                                                        <FontAwesomeIcon icon={faAngleDoubleRight} />
+                                                        Fotos del evento
+                                                        <FontAwesomeIcon icon={faAngleDoubleLeft} />
+
+                                                    </motion.button> : ''
+                                            }
+
+
                                         </div>
                                     </div>
                                     {

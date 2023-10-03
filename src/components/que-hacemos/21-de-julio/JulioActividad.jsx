@@ -4,10 +4,12 @@ import CardContainer from '../../card-container/CardContainer';
 
 import imgJulio21 from '../../../Data/imgSrcData/imgJulio21';
 import imgJulio22 from '../../../Data/imgSrcData/imgJulio22';
+import imgJulio23 from '../../../Data/imgSrcData/imgJulio23';
 
 import foto from "../../../images/biografia/celebramos.jpg";
 import foto2 from "../../../images/img-body/21-de-julio/foto1.jpg";
 import foto13 from "../../../images/img-body/21-de-julio/image6.jpg";
+import foto23 from "../../../images/img-body/21-de-julio/julio2023.jpg";
 
 import { useEffect } from 'react';
 
@@ -29,6 +31,15 @@ let cardData = [
         year: 2021,
         imgData: imgJulio21,
         title: 'Dia provincial del libro infantil y juvenil 2021',
+    },
+    {
+        id: 3,
+        img: foto23,
+        alt: 'Dia provincial del libro infantil y juvenil 2023',
+        video: 'https://www.youtube.com/embed/2YOkh5ZWAfM?si=sP7j05s3r1dgAwD5',
+        year: 2023,
+        imgData: 0,
+        title: 'Dia provincial del libro infantil y juvenil 2023',
     },
 ]
 
