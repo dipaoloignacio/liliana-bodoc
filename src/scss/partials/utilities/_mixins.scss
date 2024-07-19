@@ -153,12 +153,12 @@
 }
 
 @mixin libro {
-    $images: url("../../../images/img-body/21-de-julio/actividad-21julio.jpg"),
-    url("../../../images/img-header/logo-bg-gris.jpg"),
-    url("../../../images/img-body/21-de-julio/21-julio.jpg"),
-    url("../../../images/img-body/mujeres-confines/mujeres-confines.jpg"),
-    url("../../../images/img-body/contar-para-que-ocurra/contar.jpg"),
-    url("../../../images/img-body/21-de-julio/actividad-21julio.jpg");
+    $images: url("../../../images/novedades/concurso1.jpeg"),
+    url("../../../images/novedades/concurso2.jpeg"),
+    url("../../../images/novedades/concurso3.jpeg"),
+    url("../../../images/novedades/concurso2.jpeg"),
+    url("../../../images/novedades/concurso3.jpeg"),
+    url("../../../images/novedades/concurso1.jpeg");
 
     // Preload to images
     .imgLoader {

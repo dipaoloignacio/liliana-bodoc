@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import lili from '../../images/img-header/lili-bg-null.png'
-import libros from '../../images/img-header/LIBROS.png'
+// import libros from '../../images/img-header/LIBROS.png'
 import logo from '../../images/img-header/logo-sinFondo1.png'
 
 function Header() {

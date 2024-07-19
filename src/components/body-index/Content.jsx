@@ -3,7 +3,7 @@ import Banner from '../banner/Banner'
 import Scroll from '../animations/scroll/Scroll';
 import Videos from '../liliana-bodoc/videos/Videos';
 import cards from '../../Data/Cards/dataCards';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import CardContainer from '../card-container/CardContainer';
 import { Link } from 'react-router-dom'
 

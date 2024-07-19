@@ -15,7 +15,6 @@ import DonacionesLibros from './components/que-hacemos/donaciones-libros/Donacio
 import Novedades from './components/novedades/Novedades';
 import Footer from './components/footer/Footer';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import Scroll from './components/animations/scroll/Scroll';
 function App() {
 
   return (

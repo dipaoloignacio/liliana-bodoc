@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 function CardContainer({ cardsData, from }) {
     const [viewGallery, setViewGallery] = useState(false)
-    const [idGallery, setIdGallery] = useState(0);
+    // const [idGallery, setIdGallery] = useState(0);
 
     function closeGallery() {
         setViewGallery(false);

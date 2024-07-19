@@ -17,7 +17,7 @@ function Footer() {
             <ul className="redes">
               <li className="icon facebook">
                 <span className="nombre-red">Facebook</span>
-                <a href="https://www.facebook.com/El-alma-en-un-hilo-Marionetas-y-Miniaturas--804228576283329" target="_blank">
+                <a href="https://www.facebook.com/groups/losconfinesdebodoc" target="_blank">
                   <span>
                     <FontAwesomeIcon icon={faFacebookF} />
                   </span>
@@ -25,18 +25,18 @@ function Footer() {
               </li>
               <li className="icon instagram">
                 <span className="nombre-red">Instagram</span>
-                <a href="https://www.instagram.com/elalmaenunhilo.marionetas/?hl=es" target="_blank"><span><FontAwesomeIcon icon={faInstagram} /></span></a>
+                <a href="https://www.instagram.com/liliana_bodoc.fans" target="_blank"><span><FontAwesomeIcon icon={faInstagram} /></span></a>
 
               </li>
-              <li className="icon youtube">
+              {/* <li className="icon youtube">
                 <span className="nombre-red">Youtube</span>
                 <a href="https://www.youtube.com/channel/UC1BkfXOrAE1IfSgi7FUKC3A" target="_blank"><span><FontAwesomeIcon icon={faYoutube} /></span></a>
 
-              </li>
-              <li className="icon envelope">
+              </li> */}
+              {/* <li className="icon envelope">
                 <span className="nombre-red">Mensaje</span>
                 <a href="pages/contact.html" target="_blank"><span><FontAwesomeIcon icon={faWhatsapp} /></span></a>
-              </li>
+              </li> */}
             </ul>
             <div>
               <ul className='contac-list'>
